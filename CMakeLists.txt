@@ -2,6 +2,8 @@
 SET(CMAKE_SYSTEM_NAME Generic)
 CMAKE_MINIMUM_REQUIRED (VERSION 3.10.0)
 
+project(hello_world)
+
 # THE VERSION NUMBER
 SET (Tutorial_VERSION_MAJOR 1)
 SET (Tutorial_VERSION_MINOR 0)
@@ -15,44 +17,38 @@ SET(CMAKE_STATIC_LIBRARY_SUFFIX)
 SET(CMAKE_EXECUTABLE_LIBRARY_PREFIX)
 SET(CMAKE_EXECUTABLE_LIBRARY_SUFFIX)
 
-# CURRENT DIRECTORY
-SET(ProjDirPath ${CMAKE_CURRENT_SOURCE_DIR})
-
-SET(EXECUTABLE_OUTPUT_PATH ${ProjDirPath}/${CMAKE_BUILD_TYPE})
-SET(LIBRARY_OUTPUT_PATH ${ProjDirPath}/${CMAKE_BUILD_TYPE})
-
-
-project(hello_world)
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/${CMAKE_BUILD_TYPE})
+SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/${CMAKE_BUILD_TYPE})
 
 set(MCUX_SDK_PROJECT_NAME hello_world.elf)
 
-include(${ProjDirPath}/./flags.cmake)
+include(${PROJECT_SOURCE_DIR}/./flags.cmake)
 
-include(${ProjDirPath}/./config.cmake)
+include(${PROJECT_SOURCE_DIR}/./config.cmake)
 
 add_executable(${MCUX_SDK_PROJECT_NAME}
-"${ProjDirPath}/board/board.c"
-"${ProjDirPath}/board/board.h"
-"${ProjDirPath}/board/clock_config.c"
-"${ProjDirPath}/board/clock_config.h"
-"${ProjDirPath}/board/pin_mux.c"
-"${ProjDirPath}/board/pin_mux.h"
-"${ProjDirPath}/source/hello_world.c"
+"${PROJECT_SOURCE_DIR}/board/board.c"
+"${PROJECT_SOURCE_DIR}/board/board.h"
+"${PROJECT_SOURCE_DIR}/board/clock_config.c"
+"${PROJECT_SOURCE_DIR}/board/clock_config.h"
+"${PROJECT_SOURCE_DIR}/board/pin_mux.c"
+"${PROJECT_SOURCE_DIR}/board/pin_mux.h"
+"${PROJECT_SOURCE_DIR}/source/hello_world.c"
 )
 
 target_include_directories(${MCUX_SDK_PROJECT_NAME} PRIVATE
-${ProjDirPath}/board
+${PROJECT_SOURCE_DIR}/board
 )
 
 set(CMAKE_MODULE_PATH
-${ProjDirPath}/.
-${ProjDirPath}/CMSIS
-${ProjDirPath}/component/lists
-${ProjDirPath}/component/uart
-${ProjDirPath}/device
-${ProjDirPath}/drivers
-${ProjDirPath}/startup
-${ProjDirPath}/utilities
+${PROJECT_SOURCE_DIR}/.
+${PROJECT_SOURCE_DIR}/CMSIS
+${PROJECT_SOURCE_DIR}/component/lists
+${PROJECT_SOURCE_DIR}/component/uart
+${PROJECT_SOURCE_DIR}/device
+${PROJECT_SOURCE_DIR}/drivers
+${PROJECT_SOURCE_DIR}/startup
+${PROJECT_SOURCE_DIR}/utilities
 )
 
 # include modules

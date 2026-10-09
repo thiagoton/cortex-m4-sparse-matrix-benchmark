@@ -160,7 +160,7 @@ SET(CMAKE_EXE_LINKER_FLAGS_DEBUG " \
     -Xlinker \
     -Map=output.map \
     -Wl,--print-memory-usage \
-    -T${ProjDirPath}/MK64F12/gcc/MK64FN1M0xxx12_flash.ld -static \
+    -T${PROJECT_SOURCE_DIR}/MK64F12/gcc/MK64FN1M0xxx12_flash.ld -static \
 ")
 SET(CMAKE_EXE_LINKER_FLAGS_RELEASE " \
     ${CMAKE_EXE_LINKER_FLAGS_RELEASE} \
@@ -188,5 +188,5 @@ SET(CMAKE_EXE_LINKER_FLAGS_RELEASE " \
     -Xlinker \
     -Map=output.map \
     -Wl,--print-memory-usage \
-    -T${ProjDirPath}/MK64F12/gcc/MK64FN1M0xxx12_flash.ld -static \
+    -T${PROJECT_SOURCE_DIR}/MK64F12/gcc/MK64FN1M0xxx12_flash.ld -static \
 ")
