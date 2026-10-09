@@ -1,0 +1,1438 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crt0.o (exit)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-malloc.o)
+                              CMakeFiles/hello_world.elf.dir/drivers/fsl_common.c.obj (malloc)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-malloc.o) (_malloc_r)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o) (__malloc_lock)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o) (__stdio_exit_handler)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o) (_fwalk_sglue)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o) (__sread)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memset.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crt0.o (memset)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o) (_close_r)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o) (errno)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-malloc.o) (_impure_ptr)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o) (_lseek_r)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o) (_read_r)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o) (_sbrk_r)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o) (_write_r)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-errno.o)
+                              CMakeFiles/hello_world.elf.dir/utilities/fsl_sbrk.c.obj (__errno)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o) (__retarget_lock_init_recursive)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
+                              CMakeFiles/hello_world.elf.dir/utilities/fsl_debug_console.c.obj (memcpy)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-strlen.o)
+                              CMakeFiles/hello_world.elf.dir/utilities/fsl_debug_console.c.obj (strlen)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-malloc.o) (_free_r)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o) (_fflush_r)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
+                              CMakeFiles/hello_world.elf.dir/drivers/fsl_common_arm.c.obj (__aeabi_uldivmod)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_dvmd_tls.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o) (_close)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o) (_lseek)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o) (_read)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o) (_write)
+C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+                              C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o) (_exit)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .rodata.all_implied_fbits
+                0x00000000       0x24 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data.__dso_handle
+                0x00000000        0x4 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crt0.o
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.extab     0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crt0.o
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/board/board.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/board/board.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/board/board.c.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/board/clock_config.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/board/clock_config.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/board/clock_config.c.obj
+ .text.BOARD_BootClockVLPR
+                0x00000000       0x4c CMakeFiles/hello_world.elf.dir/board/clock_config.c.obj
+ .rodata.oscConfig_BOARD_BootClockVLPR
+                0x00000000        0x8 CMakeFiles/hello_world.elf.dir/board/clock_config.c.obj
+ .rodata.simConfig_BOARD_BootClockVLPR
+                0x00000000        0x8 CMakeFiles/hello_world.elf.dir/board/clock_config.c.obj
+ .rodata.mcgConfig_BOARD_BootClockVLPR
+                0x00000000        0xb CMakeFiles/hello_world.elf.dir/board/clock_config.c.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/board/pin_mux.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/board/pin_mux.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/board/pin_mux.c.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/source/hello_world.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/source/hello_world.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/source/hello_world.c.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/utilities/fsl_debug_console.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/utilities/fsl_debug_console.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/utilities/fsl_debug_console.c.obj
+ .text.DbgConsole_ScanIgnoreWhiteSpace
+                0x00000000       0x20 CMakeFiles/hello_world.elf.dir/utilities/fsl_debug_console.c.obj
+ .text.DbgConsole_Deinit
+                0x00000000       0x1c CMakeFiles/hello_world.elf.dir/utilities/fsl_debug_console.c.obj
+ .text.DbgConsole_Scanf
+                0x00000000      0x2f4 CMakeFiles/hello_world.elf.dir/utilities/fsl_debug_console.c.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/component/uart/fsl_adapter_uart.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/component/uart/fsl_adapter_uart.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/component/uart/fsl_adapter_uart.c.obj
+ .text.HAL_UartDeinit
+                0x00000000       0x18 CMakeFiles/hello_world.elf.dir/component/uart/fsl_adapter_uart.c.obj
+ .text.HAL_UartEnterLowpower
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/component/uart/fsl_adapter_uart.c.obj
+ .text.HAL_UartExitLowpower
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/component/uart/fsl_adapter_uart.c.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_common.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_common.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_common.c.obj
+ .text.SDK_Malloc
+                0x00000000       0x42 CMakeFiles/hello_world.elf.dir/drivers/fsl_common.c.obj
+ .text.SDK_Free
+                0x00000000       0x18 CMakeFiles/hello_world.elf.dir/drivers/fsl_common.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/hello_world.elf.dir/drivers/fsl_common.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_common.c.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_common_arm.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_common_arm.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_common_arm.c.obj
+ .text.SDK_DelayAtLeastUs
+                0x00000000       0x20 CMakeFiles/hello_world.elf.dir/drivers/fsl_common_arm.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/hello_world.elf.dir/drivers/fsl_common_arm.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_common_arm.c.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_FllStableDelay
+                0x00000000       0x18 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_GetOsc0ErClkFreq
+                0x00000000       0x18 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_GetEr32kClkFreq
+                0x00000000       0x3c CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_EnableUsbfs0Clock
+                0x00000000       0x98 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_GetInternalRefClkFreq
+                0x00000000       0x14 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_GetPllFllSelClkFreq
+                0x00000000       0x2c CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_GetFlashClkFreq
+                0x00000000       0x1c CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_GetFlexBusClkFreq
+                0x00000000       0x1c CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_GetBusClkFreq
+                0x00000000       0x1c CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_GetPlatClkFreq
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_GetFixedFreqClkFreq
+                0x00000000       0x18 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_GetFreq
+                0x00000000       0xa8 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_CalcPllDiv
+                0x00000000       0xd8 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_SetOsc0MonitorMode
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_SetRtcOscMonitorMode
+                0x00000000       0x20 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_SetPll0MonitorMode
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_GetStatusFlags
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_ClearStatusFlags
+                0x00000000       0x2c CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_DeinitOsc0
+                0x00000000       0x1c CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_SetSlowIrcFreq
+                0x00000000        0xc CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_SetFastIrcFreq
+                0x00000000        0xc CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_TrimInternalRefClk
+                0x00000000       0xb0 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_GetMode
+                0x00000000       0x54 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_SetFeiMode
+                0x00000000       0x60 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_SetFeeMode
+                0x00000000       0x80 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_SetFbiMode
+                0x00000000       0x68 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_SetFbeMode
+                0x00000000       0x84 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_SetBlpiMode
+                0x00000000       0x14 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_SetBlpeMode
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_SetPeeMode
+                0x00000000       0x1c CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_ExternalModeToFbeModeQuick
+                0x00000000       0x38 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_InternalModeToFbiModeQuick
+                0x00000000       0x28 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_BootToFeiMode
+                0x00000000        0xa CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_BootToFeeMode
+                0x00000000       0x1c CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_BootToBlpiMode
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_BootToBlpeMode
+                0x00000000       0x44 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_SetMcgConfig
+                0x00000000      0x110 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .rodata.trimRange.0
+                0x00000000       0x10 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .rodata.mcgModeMatrix
+                0x00000000       0x40 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_TransferGetRxRingBufferLength
+                0x00000000       0x14 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_Deinit
+                0x00000000       0x3c CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_SetBaudRate
+                0x00000000       0x6a CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_Enable9bitMode
+                0x00000000       0x16 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_SendAddress
+                0x00000000       0x14 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_EnableInterrupts
+                0x00000000       0x36 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_DisableInterrupts
+                0x00000000       0x32 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_GetEnabledInterrupts
+                0x00000000       0x26 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_TransferHandleIRQ
+                0x00000000      0x3c4 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_TransferCreateHandle
+                0x00000000       0x68 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_TransferStartRingBuffer
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_TransferStopRingBuffer
+                0x00000000       0x3c CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_TransferSendNonBlocking
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_TransferAbortSend
+                0x00000000       0x1c CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_TransferGetSendCount
+                0x00000000       0x1a CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_TransferReceiveNonBlocking
+                0x00000000      0x10a CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_TransferAbortReceive
+                0x00000000       0x38 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_TransferGetReceiveCount
+                0x00000000       0x1e CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_EnableTxFIFO
+                0x00000000       0x44 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_EnableRxFIFO
+                0x00000000       0x44 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text.UART_TransferHandleErrorIRQ
+                0x00000000        0x2 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .rodata.s_uartIRQ
+                0x00000000        0x6 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/utilities/fsl_assert.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/utilities/fsl_assert.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/utilities/fsl_assert.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/hello_world.elf.dir/utilities/fsl_assert.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/utilities/fsl_assert.c.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_gpio.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_gpio.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_gpio.c.obj
+ .text.GPIO_PinInit
+                0x00000000       0x24 CMakeFiles/hello_world.elf.dir/drivers/fsl_gpio.c.obj
+ .text.GPIO_PortGetInterruptFlags
+                0x00000000       0x48 CMakeFiles/hello_world.elf.dir/drivers/fsl_gpio.c.obj
+ .text.GPIO_PortClearInterruptFlags
+                0x00000000       0x48 CMakeFiles/hello_world.elf.dir/drivers/fsl_gpio.c.obj
+ .rodata.s_portBases
+                0x00000000       0x14 CMakeFiles/hello_world.elf.dir/drivers/fsl_gpio.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/hello_world.elf.dir/drivers/fsl_gpio.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_gpio.c.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.ftfx_command_sequence
+                0x00000000       0x40 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.ftfx_check_mem_range
+                0x00000000       0x2c CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.ftfx_read_word_from_byte_address
+                0x00000000       0x20 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.ftfx_write_word_to_byte_address
+                0x00000000       0x18 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.FTFx_API_Init
+                0x00000000       0x4c CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.FTFx_CMD_Erase
+                0x00000000       0x6c CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.FTFx_CMD_EraseSectorNonBlocking
+                0x00000000       0x4c CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.FTFx_CMD_EraseAll
+                0x00000000       0x24 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.FTFx_CMD_EraseAllExecuteOnlySegments
+                0x00000000       0x24 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.FTFx_CMD_Program
+                0x00000000       0x84 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.FTFx_CMD_ProgramOnce
+                0x00000000       0x7c CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.FTFx_CMD_ProgramSection
+                0x00000000       0xb8 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.FTFx_CMD_ReadOnce
+                0x00000000       0x80 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.FTFx_CMD_ReadResource
+                0x00000000       0xd8 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.FTFx_CMD_VerifyErase
+                0x00000000       0x88 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.FTFx_CMD_VerifyEraseAll
+                0x00000000       0x1c CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.FTFx_CMD_VerifyEraseAllExecuteOnlySegments
+                0x00000000       0x1c CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.FTFx_CMD_VerifyProgram
+                0x00000000       0x88 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.FTFx_CMD_SecurityBypass
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.FTFx_REG_GetSecurityState
+                0x00000000       0x3c CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text.FTFx_CMD_SwapControl
+                0x00000000       0x64 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .bss.s_ftfxRunCommand
+                0x00000000       0x40 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .rodata.s_ftfxRunCommandFunctionCode
+                0x00000000        0xc CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.flash_check_range_to_get_index
+                0x00000000       0x24 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_Init
+                0x00000000       0x7c CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_Erase
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_EraseSectorNonBlocking
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_EraseAll
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_Program
+                0x00000000       0x36 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_ProgramOnce
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_ProgramSection
+                0x00000000       0x36 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_ReadResource
+                0x00000000       0x10 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_ReadOnce
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_VerifyErase
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_VerifyEraseAll
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_VerifyProgram
+                0x00000000       0x48 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_GetSecurityState
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_SecurityBypass
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_Swap
+                0x00000000       0xf4 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_IsProtected
+                0x00000000       0xc8 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_PflashSetProtection
+                0x00000000       0x28 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_PflashGetProtection
+                0x00000000       0x1c CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_GetProperty
+                0x00000000       0x62 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text.FLASH_GetCommandState
+                0x00000000       0x30 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .rodata.kPFlashDensities
+                0x00000000       0x1e CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_cache.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_cache.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_cache.c.obj
+ .text.FTFx_CACHE_Init
+                0x00000000       0x28 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_cache.c.obj
+ .text.FTFx_CACHE_PflashSetPrefetchSpeculation
+                0x00000000       0x3c CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_cache.c.obj
+ .text.FTFx_CACHE_PflashGetPrefetchSpeculation
+                0x00000000       0x2c CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_cache.c.obj
+ .text.fmc_flash_cache_clear
+                0x00000000       0x24 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_cache.c.obj
+ .text.fmc_flash_prefetch_speculation_clear
+                0x00000000       0x24 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_cache.c.obj
+ .text.FTFx_CACHE_ClearCachePrefetchSpeculation
+                0x00000000       0x14 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_cache.c.obj
+ .bss.s_ftfxCommonBitOperation
+                0x00000000       0x40 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_cache.c.obj
+ .rodata.s_ftfxCommonBitOperationFunctionCode
+                0x00000000       0x1c CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_cache.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_cache.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_cache.c.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flexnvm.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flexnvm.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flexnvm.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flexnvm.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flexnvm.c.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .text.SMC_EnterStopRamFunc
+                0x00000000        0x8 CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .text.SMC_PreEnterStopModes
+                0x00000000       0x14 CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .text.SMC_PostExitStopModes
+                0x00000000       0x14 CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .text.SMC_PreEnterWaitModes
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .text.SMC_PostExitWaitModes
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .text.SMC_SetPowerModeRun
+                0x00000000        0xc CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .text.SMC_SetPowerModeWait
+                0x00000000       0x1c CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .text.SMC_SetPowerModeStop
+                0x00000000       0x30 CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .text.SMC_SetPowerModeVlpr
+                0x00000000       0x1e CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .text.SMC_SetPowerModeVlpw
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .text.SMC_SetPowerModeVlps
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .text.SMC_SetPowerModeLls
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .text.SMC_SetPowerModeVlls
+                0x00000000       0x58 CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .data.s_stopRamFuncArray
+                0x00000000       0x18 CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .bss.g_savedPrimask
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/component/lists/fsl_component_generic_list.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/component/lists/fsl_component_generic_list.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/component/lists/fsl_component_generic_list.c.obj
+ .text.LIST_Init
+                0x00000000        0xc CMakeFiles/hello_world.elf.dir/component/lists/fsl_component_generic_list.c.obj
+ .text.LIST_GetList
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/component/lists/fsl_component_generic_list.c.obj
+ .text.LIST_AddTail
+                0x00000000       0x36 CMakeFiles/hello_world.elf.dir/component/lists/fsl_component_generic_list.c.obj
+ .text.LIST_AddHead
+                0x00000000       0x32 CMakeFiles/hello_world.elf.dir/component/lists/fsl_component_generic_list.c.obj
+ .text.LIST_RemoveHead
+                0x00000000       0x2c CMakeFiles/hello_world.elf.dir/component/lists/fsl_component_generic_list.c.obj
+ .text.LIST_GetHead
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/component/lists/fsl_component_generic_list.c.obj
+ .text.LIST_GetNext
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/component/lists/fsl_component_generic_list.c.obj
+ .text.LIST_GetPrev
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/component/lists/fsl_component_generic_list.c.obj
+ .text.LIST_RemoveElement
+                0x00000000       0x40 CMakeFiles/hello_world.elf.dir/component/lists/fsl_component_generic_list.c.obj
+ .text.LIST_AddPrevElement
+                0x00000000       0x52 CMakeFiles/hello_world.elf.dir/component/lists/fsl_component_generic_list.c.obj
+ .text.LIST_GetSize
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/component/lists/fsl_component_generic_list.c.obj
+ .text.LIST_GetAvailableSize
+                0x00000000        0x8 CMakeFiles/hello_world.elf.dir/component/lists/fsl_component_generic_list.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/hello_world.elf.dir/component/lists/fsl_component_generic_list.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/component/lists/fsl_component_generic_list.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/startup/startup_MK64F12.S.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/startup/startup_MK64F12.S.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/device/system_MK64F12.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/device/system_MK64F12.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/device/system_MK64F12.c.obj
+ .text.SystemCoreClockUpdate
+                0x00000000      0x158 CMakeFiles/hello_world.elf.dir/device/system_MK64F12.c.obj
+ .text          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/utilities/fsl_sbrk.c.obj
+ .data          0x00000000        0x0 CMakeFiles/hello_world.elf.dir/utilities/fsl_sbrk.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/hello_world.elf.dir/utilities/fsl_sbrk.c.obj
+ .text._sbrk    0x00000000       0x34 CMakeFiles/hello_world.elf.dir/utilities/fsl_sbrk.c.obj
+ .bss.heap_end.0
+                0x00000000        0x4 CMakeFiles/hello_world.elf.dir/utilities/fsl_sbrk.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/hello_world.elf.dir/utilities/fsl_sbrk.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/hello_world.elf.dir/utilities/fsl_sbrk.c.obj
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-malloc.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-malloc.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-malloc.o)
+ .text.malloc   0x00000000       0x10 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-malloc.o)
+ .text.free     0x00000000       0x10 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-malloc.o)
+ .debug_frame   0x00000000       0x30 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-malloc.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-malloc.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .text.sbrk_aligned
+                0x00000000       0x44 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .text._malloc_r
+                0x00000000      0x100 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .bss.__malloc_sbrk_start
+                0x00000000        0x4 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .bss.__malloc_free_list
+                0x00000000        0x4 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .debug_frame   0x00000000       0x50 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+ .text.__malloc_lock
+                0x00000000        0xc C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+ .text.__malloc_unlock
+                0x00000000        0xc C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+ .debug_frame   0x00000000       0x30 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.std      0x00000000       0x6c C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.stdio_exit_handler
+                0x00000000       0x18 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.cleanup_stdio
+                0x00000000       0x40 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.__fp_lock
+                0x00000000       0x18 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000       0x18 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.global_stdio_init.part.0
+                0x00000000       0x40 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x00000000        0xc C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.__sfp_lock_release
+                0x00000000        0xc C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.__sfp    0x00000000       0xa4 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.__sinit  0x00000000       0x30 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x1c C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x1c C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .data.__sglue  0x00000000        0xc C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .bss.__sf      0x00000000      0x138 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
+ .text._fwalk_sglue
+                0x00000000       0x3c C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
+ .debug_frame   0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .text.__sread  0x00000000       0x22 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x4 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .text.__swrite
+                0x00000000       0x38 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .text.__sseek  0x00000000       0x26 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .text.__sclose
+                0x00000000        0x8 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .debug_frame   0x00000000       0x88 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memset.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memset.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
+ .text._close_r
+                0x00000000       0x20 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
+ .debug_frame   0x00000000       0x2c C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xbc C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+ .bss.errno     0x00000000        0x4 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+ .debug_frame   0x00000000       0x38 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
+ .data._impure_data
+                0x00000000       0x4c C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
+ .text._lseek_r
+                0x00000000       0x24 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
+ .debug_frame   0x00000000       0x2c C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
+ .text._read_r  0x00000000       0x24 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
+ .debug_frame   0x00000000       0x2c C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+ .text._sbrk_r  0x00000000       0x20 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+ .debug_frame   0x00000000       0x2c C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
+ .text._write_r
+                0x00000000       0x24 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
+ .debug_frame   0x00000000       0x2c C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-errno.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-errno.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-errno.o)
+ .text.__errno  0x00000000        0xc C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-errno.o)
+ .debug_frame   0x00000000       0x20 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-errno.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-errno.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_init
+                0x00000000        0x2 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x2 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x2 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x2 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x2 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire_recursive
+                0x00000000        0x2 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x2 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_release_recursive
+                0x00000000        0x2 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___arc4random_mutex
+                0x00000000        0x1 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___dd_hash_mutex
+                0x00000000        0x1 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___tz_mutex
+                0x00000000        0x1 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___env_recursive_mutex
+                0x00000000        0x1 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___malloc_recursive_mutex
+                0x00000000        0x1 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___at_quick_exit_mutex
+                0x00000000        0x1 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___atexit_recursive_mutex
+                0x00000000        0x1 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___sfp_recursive_mutex
+                0x00000000        0x1 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .debug_frame   0x00000000       0xb0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-strlen.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-strlen.o)
+ .ARM.extab     0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-strlen.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
+ .text._free_r  0x00000000       0x94 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
+ .debug_frame   0x00000000       0x38 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .text.__sflush_r
+                0x00000000      0x104 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .text._fflush_r
+                0x00000000       0x50 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .text.fflush   0x00000000       0x28 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .debug_frame   0x00000000       0x5c C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .text          0x00000000       0x30 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .debug_line_str
+                0x00000000       0xcd C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00000000       0x2c C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000000       0x22 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+ .text.__udivmoddi4
+                0x00000000      0x2f8 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+ .ARM.extab.text.__udivmoddi4
+                0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+ .ARM.exidx.text.__udivmoddi4
+                0x00000000        0x8 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+ .text          0x00000000        0x4 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_dvmd_tls.o)
+ .debug_line_str
+                0x00000000       0xd1 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000       0x22 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+ .text._close   0x00000000       0x10 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+ .gnu.warning._close
+                0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+ .debug_frame   0x00000000       0x20 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+ .text._lseek   0x00000000       0x10 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+ .gnu.warning._lseek
+                0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+ .debug_frame   0x00000000       0x20 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+ .text._read    0x00000000       0x10 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+ .gnu.warning._read
+                0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+ .debug_frame   0x00000000       0x20 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+ .text._write   0x00000000       0x10 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+ .gnu.warning._write
+                0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+ .debug_frame   0x00000000       0x20 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .rodata.all_implied_fbits
+                0x00000000       0x24 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .eh_frame      0x00000000        0x4 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .text          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .data          0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .bss           0x00000000        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x00000000         0x00000400         xr
+m_flash_config   0x00000400         0x00000010         xr
+m_text           0x00000410         0x000ffbf0         xr
+m_data           0x1fff0000         0x00010000         rw
+m_data_2         0x20000000         0x00030000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
+LOAD C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+LOAD C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crt0.o
+LOAD CMakeFiles/hello_world.elf.dir/board/board.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/board/clock_config.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/board/pin_mux.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/source/hello_world.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/utilities/fsl_debug_console.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/component/uart/fsl_adapter_uart.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/drivers/fsl_common.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/drivers/fsl_common_arm.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/utilities/fsl_assert.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/drivers/fsl_gpio.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_controller.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flash.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_cache.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/drivers/fsl_ftfx_flexnvm.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/drivers/fsl_smc.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/component/lists/fsl_component_generic_list.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/startup/startup_MK64F12.S.obj
+LOAD CMakeFiles/hello_world.elf.dir/device/system_MK64F12.c.obj
+LOAD CMakeFiles/hello_world.elf.dir/utilities/fsl_sbrk.c.obj
+START GROUP
+LOAD C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libm.a
+LOAD C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a
+LOAD C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a
+END GROUP
+START GROUP
+LOAD C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a
+END GROUP
+START GROUP
+LOAD C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a
+LOAD C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a
+END GROUP
+START GROUP
+LOAD C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a
+LOAD C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a
+END GROUP
+LOAD C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtend.o
+LOAD C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
+                0x00000400                        HEAP_SIZE = DEFINED (__heap_size__)?__heap_size__:0x400
+                0x00000400                        STACK_SIZE = DEFINED (__stack_size__)?__stack_size__:0x400
+
+.interrupts     0x00000000      0x400
+                0x00000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x400 CMakeFiles/hello_world.elf.dir/startup/startup_MK64F12.S.obj
+                0x00000000                __isr_vector
+                0x00000400                        . = ALIGN (0x4)
+
+.flash_config   0x00000400       0x10
+                0x00000400                        . = ALIGN (0x4)
+ *(.FlashConfig)
+ .FlashConfig   0x00000400       0x10 CMakeFiles/hello_world.elf.dir/startup/startup_MK64F12.S.obj
+                0x00000410                        . = ALIGN (0x4)
+
+.text           0x00000410      0xfbc
+                0x00000410                        . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000410       0x7c C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crt0.o
+                0x00000410                _stack_init
+                0x00000418                _start
+                0x00000418                _mainCRTStartup
+ .text          0x0000048c      0x200 CMakeFiles/hello_world.elf.dir/startup/startup_MK64F12.S.obj
+                0x0000048c                Reset_Handler
+                0x000004ec                DebugMon_Handler
+                0x000004ec                PORTC_IRQHandler
+                0x000004ec                DMA0_DriverIRQHandler
+                0x000004ec                DMA12_DriverIRQHandler
+                0x000004ec                UART0_LON_DriverIRQHandler
+                0x000004ec                SPI1_DriverIRQHandler
+                0x000004ec                DMA_Error_DriverIRQHandler
+                0x000004ec                MemManage_Handler
+                0x000004ec                CMP0_IRQHandler
+                0x000004ec                WDOG_EWM_IRQHandler
+                0x000004ec                UART4_ERR_DriverIRQHandler
+                0x000004ec                DMA7_DriverIRQHandler
+                0x000004ec                I2C0_DriverIRQHandler
+                0x000004ec                ENET_Transmit_DriverIRQHandler
+                0x000004ec                DMA2_DriverIRQHandler
+                0x000004ec                UART1_ERR_DriverIRQHandler
+                0x000004ec                SDHC_DriverIRQHandler
+                0x000004ec                PIT0_IRQHandler
+                0x000004ec                BusFault_Handler
+                0x000004ec                CMP2_IRQHandler
+                0x000004ec                LLWU_IRQHandler
+                0x000004ec                I2S0_Tx_DriverIRQHandler
+                0x000004ec                DMA6_DriverIRQHandler
+                0x000004ec                LPTMR0_IRQHandler
+                0x000004ec                FTM2_IRQHandler
+                0x000004ec                PORTE_IRQHandler
+                0x000004ec                ENET_1588_Timer_DriverIRQHandler
+                0x000004ec                I2C2_DriverIRQHandler
+                0x000004ec                SWI_IRQHandler
+                0x000004ec                ADC0_IRQHandler
+                0x000004ec                UsageFault_Handler
+                0x000004ec                FTM3_IRQHandler
+                0x000004ec                CMT_IRQHandler
+                0x000004ec                CAN0_DriverIRQHandler
+                0x000004ec                MCM_IRQHandler
+                0x000004ec                DefaultISR
+                0x000004ec                DAC1_IRQHandler
+                0x000004ec                UART5_ERR_DriverIRQHandler
+                0x000004ec                PORTA_IRQHandler
+                0x000004ec                DMA11_DriverIRQHandler
+                0x000004ec                CMP1_IRQHandler
+                0x000004ec                Reserved71_IRQHandler
+                0x000004ec                PORTD_IRQHandler
+                0x000004ec                PORTB_IRQHandler
+                0x000004ec                DMA10_DriverIRQHandler
+                0x000004ec                FTM0_IRQHandler
+                0x000004ec                UART2_ERR_DriverIRQHandler
+                0x000004ec                SPI2_DriverIRQHandler
+                0x000004ec                ADC1_IRQHandler
+                0x000004ec                DMA5_DriverIRQHandler
+                0x000004ec                DMA4_DriverIRQHandler
+                0x000004ec                LVD_LVW_IRQHandler
+                0x000004ec                PIT2_IRQHandler
+                0x000004ec                PIT1_IRQHandler
+                0x000004ec                SPI0_DriverIRQHandler
+                0x000004ec                RTC_IRQHandler
+                0x000004ec                UART3_ERR_DriverIRQHandler
+                0x000004ec                PDB0_IRQHandler
+                0x000004ec                MCG_IRQHandler
+                0x000004ec                FTM1_IRQHandler
+                0x000004ec                DMA15_DriverIRQHandler
+                0x000004ec                ENET_Error_DriverIRQHandler
+                0x000004ec                DMA3_DriverIRQHandler
+                0x000004ec                PIT3_IRQHandler
+                0x000004ec                DMA13_DriverIRQHandler
+                0x000004ec                RTC_Seconds_IRQHandler
+                0x000004ec                DMA1_DriverIRQHandler
+                0x000004ec                FTFE_IRQHandler
+                0x000004ec                DMA9_DriverIRQHandler
+                0x000004ec                DMA8_DriverIRQHandler
+                0x000004ec                UART0_ERR_DriverIRQHandler
+                0x000004ec                DAC0_IRQHandler
+                0x000004ec                ENET_Receive_DriverIRQHandler
+                0x000004ec                I2C1_DriverIRQHandler
+                0x000004ec                Read_Collision_IRQHandler
+                0x000004ec                DMA14_DriverIRQHandler
+                0x000004ec                USB0_IRQHandler
+                0x000004ec                RNG_IRQHandler
+                0x000004ec                USBDCD_IRQHandler
+                0x000004ec                I2S0_Rx_DriverIRQHandler
+                0x000004f0                NMI_Handler
+                0x000004f4                HardFault_Handler
+                0x000004f8                SVC_Handler
+                0x000004fc                PendSV_Handler
+                0x00000500                SysTick_Handler
+                0x00000504                DMA0_IRQHandler
+                0x00000508                DMA1_IRQHandler
+                0x0000050c                DMA2_IRQHandler
+                0x00000510                DMA3_IRQHandler
+                0x00000514                DMA4_IRQHandler
+                0x00000518                DMA5_IRQHandler
+                0x0000051c                DMA6_IRQHandler
+                0x00000520                DMA7_IRQHandler
+                0x00000524                DMA8_IRQHandler
+                0x00000528                DMA9_IRQHandler
+                0x0000052c                DMA10_IRQHandler
+                0x00000530                DMA11_IRQHandler
+                0x00000534                DMA12_IRQHandler
+                0x00000538                DMA13_IRQHandler
+                0x0000053c                DMA14_IRQHandler
+                0x00000540                DMA15_IRQHandler
+                0x00000544                DMA_Error_IRQHandler
+                0x00000548                I2C0_IRQHandler
+                0x0000054c                I2C1_IRQHandler
+                0x00000550                SPI0_IRQHandler
+                0x00000554                SPI1_IRQHandler
+                0x00000558                I2S0_Tx_IRQHandler
+                0x0000055c                I2S0_Rx_IRQHandler
+                0x00000560                UART0_LON_IRQHandler
+                0x00000564                UART0_RX_TX_IRQHandler
+                0x00000568                UART0_ERR_IRQHandler
+                0x0000056c                UART1_RX_TX_IRQHandler
+                0x00000570                UART1_ERR_IRQHandler
+                0x00000574                UART2_RX_TX_IRQHandler
+                0x00000578                UART2_ERR_IRQHandler
+                0x0000057c                UART3_RX_TX_IRQHandler
+                0x00000580                UART3_ERR_IRQHandler
+                0x00000584                SPI2_IRQHandler
+                0x00000588                UART4_RX_TX_IRQHandler
+                0x0000058c                UART4_ERR_IRQHandler
+                0x00000590                UART5_RX_TX_IRQHandler
+                0x00000594                UART5_ERR_IRQHandler
+                0x00000598                I2C2_IRQHandler
+                0x0000059c                CAN0_ORed_Message_buffer_IRQHandler
+                0x000005a0                CAN0_Bus_Off_IRQHandler
+                0x000005a4                CAN0_Error_IRQHandler
+                0x000005a8                CAN0_Tx_Warning_IRQHandler
+                0x000005ac                CAN0_Rx_Warning_IRQHandler
+                0x000005b0                CAN0_Wake_Up_IRQHandler
+                0x000005b4                SDHC_IRQHandler
+                0x000005b8                ENET_1588_Timer_IRQHandler
+                0x000005bc                ENET_Transmit_IRQHandler
+                0x000005c0                ENET_Receive_IRQHandler
+                0x000005c4                ENET_Error_IRQHandler
+ .text          0x0000068c       0x10 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-strlen.o)
+                0x0000068c                strlen
+ *(.text*)
+ .text.deregister_tm_clones
+                0x0000069c       0x1c C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.register_tm_clones
+                0x000006b8       0x24 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.__do_global_dtors_aux
+                0x000006dc       0x28 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.frame_dummy
+                0x00000704       0x24 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.BOARD_InitDebugConsole
+                0x00000728       0x18 CMakeFiles/hello_world.elf.dir/board/board.c.obj
+                0x00000728                BOARD_InitDebugConsole
+ .text.BOARD_BootClockRUN
+                0x00000740       0x68 CMakeFiles/hello_world.elf.dir/board/clock_config.c.obj
+                0x00000740                BOARD_BootClockRUN
+ .text.BOARD_InitBootClocks
+                0x000007a8        0x4 CMakeFiles/hello_world.elf.dir/board/clock_config.c.obj
+                0x000007a8                BOARD_InitBootClocks
+ .text.BOARD_InitPins
+                0x000007ac       0x58 CMakeFiles/hello_world.elf.dir/board/pin_mux.c.obj
+                0x000007ac                BOARD_InitPins
+ .text.BOARD_InitBootPins
+                0x00000804        0x4 CMakeFiles/hello_world.elf.dir/board/pin_mux.c.obj
+                0x00000804                BOARD_InitBootPins
+ .text.startup.main
+                0x00000808       0x24 CMakeFiles/hello_world.elf.dir/source/hello_world.c.obj
+                0x00000808                main
+ .text.DbgConsole_ConvertRadixNumToString.isra.0
+                0x0000082c       0x3e CMakeFiles/hello_world.elf.dir/utilities/fsl_debug_console.c.obj
+ *fill*         0x0000086a        0x2 
+ .text.DbgConsole_Init
+                0x0000086c       0x48 CMakeFiles/hello_world.elf.dir/utilities/fsl_debug_console.c.obj
+                0x0000086c                DbgConsole_Init
+ .text.DbgConsole_Putchar
+                0x000008b4       0x24 CMakeFiles/hello_world.elf.dir/utilities/fsl_debug_console.c.obj
+                0x000008b4                DbgConsole_Putchar
+ .text.DbgConsole_Vprintf
+                0x000008d8      0x1d8 CMakeFiles/hello_world.elf.dir/utilities/fsl_debug_console.c.obj
+                0x000008d8                DbgConsole_Vprintf
+ .text.DbgConsole_Printf
+                0x00000ab0       0x1a CMakeFiles/hello_world.elf.dir/utilities/fsl_debug_console.c.obj
+                0x00000ab0                DbgConsole_Printf
+ *fill*         0x00000aca        0x2 
+ .text.DbgConsole_Getchar
+                0x00000acc       0x2c CMakeFiles/hello_world.elf.dir/utilities/fsl_debug_console.c.obj
+                0x00000acc                DbgConsole_Getchar
+ .text.HAL_UartInit
+                0x00000af8       0x8c CMakeFiles/hello_world.elf.dir/component/uart/fsl_adapter_uart.c.obj
+                0x00000af8                HAL_UartInit
+ .text.HAL_UartReceiveBlocking
+                0x00000b84       0x20 CMakeFiles/hello_world.elf.dir/component/uart/fsl_adapter_uart.c.obj
+                0x00000b84                HAL_UartReceiveBlocking
+ .text.HAL_UartSendBlocking
+                0x00000ba4       0x18 CMakeFiles/hello_world.elf.dir/component/uart/fsl_adapter_uart.c.obj
+                0x00000ba4                HAL_UartSendBlocking
+ .text.CLOCK_GetMcgExtClkFreq
+                0x00000bbc       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_GetFllRefClkFreq
+                0x00000bf0       0x54 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_GetInternalRefClkSelectFreq
+                0x00000c44       0x28 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .text.CLOCK_SetSimConfig
+                0x00000c6c       0x28 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+                0x00000c6c                CLOCK_SetSimConfig
+ .text.CLOCK_GetFllFreq
+                0x00000c94       0x3c CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+                0x00000c94                CLOCK_GetFllFreq
+ .text.CLOCK_GetPll0Freq
+                0x00000cd0       0x2c CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+                0x00000cd0                CLOCK_GetPll0Freq
+ .text.CLOCK_GetOutClkFreq
+                0x00000cfc       0x28 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+                0x00000cfc                CLOCK_GetOutClkFreq
+ .text.CLOCK_GetCoreSysClkFreq
+                0x00000d24       0x18 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+                0x00000d24                CLOCK_GetCoreSysClkFreq
+ .text.CLOCK_SetExternalRefClkConfig
+                0x00000d3c       0x30 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+                0x00000d3c                CLOCK_SetExternalRefClkConfig
+ .text.CLOCK_SetInternalRefClkConfig
+                0x00000d6c       0x7c CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+                0x00000d6c                CLOCK_SetInternalRefClkConfig
+ .text.CLOCK_EnablePll0
+                0x00000de8       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+                0x00000de8                CLOCK_EnablePll0
+ .text.CLOCK_InitOsc0
+                0x00000e1c       0x64 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+                0x00000e1c                CLOCK_InitOsc0
+ .text.CLOCK_SetPbeMode
+                0x00000e80       0x50 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+                0x00000e80                CLOCK_SetPbeMode
+ .text.CLOCK_BootToPeeMode
+                0x00000ed0       0x30 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+                0x00000ed0                CLOCK_BootToPeeMode
+ .text.UART_GetInstance
+                0x00000f00       0x4c CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x00000f00                UART_GetInstance
+ .text.UART_Init
+                0x00000f4c      0x100 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x00000f4c                UART_Init
+ .text.UART_GetDefaultConfig
+                0x0000104c       0x20 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x0000104c                UART_GetDefaultConfig
+ .text.UART_GetStatusFlags
+                0x0000106c       0x16 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x0000106c                UART_GetStatusFlags
+ .text.UART_ClearStatusFlags
+                0x00001082       0x3a CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x00001082                UART_ClearStatusFlags
+ .text.UART_WriteBlocking
+                0x000010bc       0x1e CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x000010bc                UART_WriteBlocking
+ .text.UART_ReadBlocking
+                0x000010da       0x92 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x000010da                UART_ReadBlocking
+ .text.UART0_DriverIRQHandler
+                0x0000116c       0x20 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x0000116c                UART0_DriverIRQHandler
+ .text.UART0_RX_TX_DriverIRQHandler
+                0x0000118c        0xc CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x0000118c                UART0_RX_TX_DriverIRQHandler
+ .text.UART1_DriverIRQHandler
+                0x00001198       0x20 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x00001198                UART1_DriverIRQHandler
+ .text.UART1_RX_TX_DriverIRQHandler
+                0x000011b8        0xc CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x000011b8                UART1_RX_TX_DriverIRQHandler
+ .text.UART2_DriverIRQHandler
+                0x000011c4       0x20 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x000011c4                UART2_DriverIRQHandler
+ .text.UART2_RX_TX_DriverIRQHandler
+                0x000011e4        0xc CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x000011e4                UART2_RX_TX_DriverIRQHandler
+ .text.UART3_DriverIRQHandler
+                0x000011f0       0x20 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x000011f0                UART3_DriverIRQHandler
+ .text.UART3_RX_TX_DriverIRQHandler
+                0x00001210        0xc CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x00001210                UART3_RX_TX_DriverIRQHandler
+ .text.UART4_DriverIRQHandler
+                0x0000121c       0x20 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x0000121c                UART4_DriverIRQHandler
+ .text.UART4_RX_TX_DriverIRQHandler
+                0x0000123c        0xc CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x0000123c                UART4_RX_TX_DriverIRQHandler
+ .text.UART5_DriverIRQHandler
+                0x00001248       0x20 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x00001248                UART5_DriverIRQHandler
+ .text.UART5_RX_TX_DriverIRQHandler
+                0x00001268        0xc CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x00001268                UART5_RX_TX_DriverIRQHandler
+ .text.SystemInitHook
+                0x00001274        0x2 CMakeFiles/hello_world.elf.dir/device/system_MK64F12.c.obj
+                0x00001274                SystemInitHook
+ *fill*         0x00001276        0x2 
+ .text.SystemInit
+                0x00001278       0x34 CMakeFiles/hello_world.elf.dir/device/system_MK64F12.c.obj
+                0x00001278                SystemInit
+ .text.exit     0x000012ac       0x24 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o)
+                0x000012ac                exit
+ .text.memset   0x000012d0       0x10 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memset.o)
+                0x000012d0                memset
+ .text.__libc_init_array
+                0x000012e0       0x48 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
+                0x000012e0                __libc_init_array
+ .text.memcpy   0x00001328       0x1c C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
+                0x00001328                memcpy
+ .text._exit    0x00001344        0x4 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+                0x00001344                _exit
+ *(.rodata)
+ *(.rodata*)
+ .rodata.oscConfig_BOARD_BootClockRUN
+                0x00001348        0x8 CMakeFiles/hello_world.elf.dir/board/clock_config.c.obj
+                0x00001348                oscConfig_BOARD_BootClockRUN
+ .rodata.simConfig_BOARD_BootClockRUN
+                0x00001350        0x8 CMakeFiles/hello_world.elf.dir/board/clock_config.c.obj
+                0x00001350                simConfig_BOARD_BootClockRUN
+ .rodata.mcgConfig_BOARD_BootClockRUN
+                0x00001358        0xb CMakeFiles/hello_world.elf.dir/board/clock_config.c.obj
+                0x00001358                mcgConfig_BOARD_BootClockRUN
+ .rodata.main.str1.1
+                0x00001363        0xf CMakeFiles/hello_world.elf.dir/source/hello_world.c.obj
+ *fill*         0x00001372        0x2 
+ .rodata.s_UartAdapterBase
+                0x00001374       0x18 CMakeFiles/hello_world.elf.dir/component/uart/fsl_adapter_uart.c.obj
+ .rodata.fllFactorTable.1
+                0x0000138c       0x10 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .rodata.s_uartClock
+                0x0000139c       0x18 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ *(.glue_7)
+ .glue_7        0x000013b4        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x000013b4        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x000013b4        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *(.init)
+ .init          0x000013b4        0x4 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x000013b4                _init
+ .init          0x000013b8        0x8 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
+ *(.fini)
+ .fini          0x000013c0        0x4 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x000013c0                _fini
+ .fini          0x000013c4        0x8 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
+                0x000013cc                        . = ALIGN (0x4)
+
+.vfp11_veneer   0x000013cc        0x0
+ .vfp11_veneer  0x000013cc        0x0 linker stubs
+
+.v4_bx          0x000013cc        0x0
+ .v4_bx         0x000013cc        0x0 linker stubs
+
+.iplt           0x000013cc        0x0
+ .iplt          0x000013cc        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x000013cc        0x8
+                0x000013cc                        __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x000013cc        0x8 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crt0.o
+                                 0x10 (size before relaxing)
+ .ARM.exidx     0x000013d4        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-strlen.o)
+                                  0x8 (size before relaxing)
+                0x000013d4                        __exidx_end = .
+
+.rel.dyn        0x000013d4        0x0
+ .rel.iplt      0x000013d4        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.ctors          0x000013d4        0x0
+                0x000013d4                        __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+                0x000013d4                        __CTOR_END__ = .
+
+.dtors          0x000013d4        0x0
+                0x000013d4                        __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                0x000013d4                        __DTOR_END__ = .
+
+.preinit_array  0x000013d4        0x0
+                0x000013d4                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x000013d4                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x000013d4        0x4
+                0x000013d4                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+ .init_array    0x000013d4        0x4 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x000013d8                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x000013d8        0x4
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x000013d8        0x4 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x000013dc                        __etext = .
+                0x000013dc                        __DATA_ROM = .
+
+.data           0x1fff0000        0xc load address 0x000013dc
+                0x1fff0000                        . = ALIGN (0x4)
+                0x1fff0000                        __DATA_RAM = .
+                0x1fff0000                        __data_start__ = .
+ *(.data)
+ *(.data*)
+ .data.s_fastIrcFreq
+                0x1fff0000        0x4 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .data.s_slowIrcFreq
+                0x1fff0004        0x4 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .data.SystemCoreClock
+                0x1fff0008        0x4 CMakeFiles/hello_world.elf.dir/device/system_MK64F12.c.obj
+                0x1fff0008                SystemCoreClock
+ *(NonCacheable.init)
+ *(NonCacheable)
+ *(CodeQuickAccess)
+ *(DataQuickAccess)
+ *(.jcr*)
+                0x1fff000c                        . = ALIGN (0x4)
+                0x1fff000c                        __data_end__ = .
+                0x000013e8                        __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x00100000                        text_end = (ORIGIN (m_text) + LENGTH (m_text))
+                0x00000001                        ASSERT ((__DATA_END <= text_end), region m_text overflowed with text and data)
+
+.tm_clone_table
+                0x1fff000c        0x0 load address 0x000013e8
+ .tm_clone_table
+                0x1fff000c        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .tm_clone_table
+                0x1fff000c        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtend.o
+
+.igot.plt       0x1fff000c        0x0 load address 0x000013e8
+ .igot.plt      0x1fff000c        0x0 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.bss            0x1fff000c       0x58 load address 0x000013e8
+                0x1fff000c                        . = ALIGN (0x4)
+                0x1fff000c                        __START_BSS = .
+                0x1fff000c                        __bss_start__ = .
+ *(.bss)
+ *(.bss*)
+ .bss.completed.1
+                0x1fff000c        0x1 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *fill*         0x1fff000d        0x3 
+ .bss.object.0  0x1fff0010       0x18 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss.s_debugConsole
+                0x1fff0028       0x14 CMakeFiles/hello_world.elf.dir/utilities/fsl_debug_console.c.obj
+ .bss.g_xtal32Freq
+                0x1fff003c        0x4 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+                0x1fff003c                g_xtal32Freq
+ .bss.g_xtal0Freq
+                0x1fff0040        0x4 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+                0x1fff0040                g_xtal0Freq
+ .bss.s_uartIsr
+                0x1fff0044        0x4 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x1fff0044                s_uartIsr
+ .bss.s_uartHandle
+                0x1fff0048       0x18 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+                0x1fff0048                s_uartHandle
+ .bss.__stdio_exit_handler
+                0x1fff0060        0x4 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+                0x1fff0060                __stdio_exit_handler
+ *(COMMON)
+                0x1fff0064                        . = ALIGN (0x4)
+                0x1fff0064                        __bss_end__ = .
+                0x1fff0064                        __END_BSS = .
+
+.heap           0x20000000      0x400
+                0x20000000                        . = ALIGN (0x8)
+                0x20000000                        __end__ = .
+                0x20000000                        PROVIDE (end = .)
+                0x20000000                        __HeapBase = .
+                0x20000400                        . = (. + HEAP_SIZE)
+ *fill*         0x20000000      0x400 
+                0x20000400                        __HeapLimit = .
+                0x20000400                        __heap_limit = .
+
+.stack          0x20000400      0x400
+                0x20000400                        . = ALIGN (0x8)
+                0x20000800                        . = (. + STACK_SIZE)
+ *fill*         0x20000400      0x400 
+                0x20030000                        __StackTop = (ORIGIN (m_data_2) + LENGTH (m_data_2))
+                0x2002fc00                        __StackLimit = (__StackTop - STACK_SIZE)
+                0x20030000                        PROVIDE (__stack = __StackTop)
+
+.ARM.attributes
+                0x00000000       0x30
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x22 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
+ .ARM.attributes
+                0x00000022       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .ARM.attributes
+                0x00000056       0x20 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.attributes
+                0x00000076       0x34 CMakeFiles/hello_world.elf.dir/board/board.c.obj
+ .ARM.attributes
+                0x000000aa       0x34 CMakeFiles/hello_world.elf.dir/board/clock_config.c.obj
+ .ARM.attributes
+                0x000000de       0x34 CMakeFiles/hello_world.elf.dir/board/pin_mux.c.obj
+ .ARM.attributes
+                0x00000112       0x34 CMakeFiles/hello_world.elf.dir/source/hello_world.c.obj
+ .ARM.attributes
+                0x00000146       0x34 CMakeFiles/hello_world.elf.dir/utilities/fsl_debug_console.c.obj
+ .ARM.attributes
+                0x0000017a       0x34 CMakeFiles/hello_world.elf.dir/component/uart/fsl_adapter_uart.c.obj
+ .ARM.attributes
+                0x000001ae       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .ARM.attributes
+                0x000001e2       0x34 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .ARM.attributes
+                0x00000216       0x1f CMakeFiles/hello_world.elf.dir/startup/startup_MK64F12.S.obj
+ .ARM.attributes
+                0x00000235       0x34 CMakeFiles/hello_world.elf.dir/device/system_MK64F12.c.obj
+ .ARM.attributes
+                0x00000269       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o)
+ .ARM.attributes
+                0x0000029d       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .ARM.attributes
+                0x000002d1       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memset.o)
+ .ARM.attributes
+                0x00000305       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
+ .ARM.attributes
+                0x00000339       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000036d       0x17 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-strlen.o)
+ .ARM.attributes
+                0x00000384       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x000003b8       0x34 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .ARM.attributes
+                0x000003ec       0x22 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
+                0x00000001                        ASSERT ((__StackLimit >= __HeapLimit), region m_data_2 overflowed with stack and heap)
+OUTPUT(release\hello_world.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_line_str
+                0x00000000      0x1c9
+ .debug_line_str
+                0x00000000      0x1c9 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crt0.o
+                                 0xda (size before relaxing)
+ .debug_line_str
+                0x000001c9       0xef C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-strlen.o)
+
+.comment        0x00000000       0x45
+ .comment       0x00000000       0x45 CMakeFiles/hello_world.elf.dir/board/board.c.obj
+                                 0x46 (size before relaxing)
+ .comment       0x00000045       0x46 CMakeFiles/hello_world.elf.dir/board/clock_config.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/hello_world.elf.dir/board/pin_mux.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/hello_world.elf.dir/source/hello_world.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/hello_world.elf.dir/utilities/fsl_debug_console.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/hello_world.elf.dir/component/uart/fsl_adapter_uart.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/hello_world.elf.dir/drivers/fsl_clock.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/hello_world.elf.dir/drivers/fsl_uart.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/hello_world.elf.dir/device/system_MK64F12.c.obj
+
+.debug_frame    0x00000000      0x220
+ .debug_frame   0x00000000       0x28 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o)
+ .debug_frame   0x00000028      0x144 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .debug_frame   0x0000016c       0x20 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memset.o)
+ .debug_frame   0x0000018c       0x2c C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
+ .debug_frame   0x000001b8       0x28 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
+ .debug_frame   0x000001e0       0x20 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-strlen.o)
+ .debug_frame   0x00000200       0x20 C:/Users/Thiago/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
