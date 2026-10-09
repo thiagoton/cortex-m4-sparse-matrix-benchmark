@@ -6,7 +6,11 @@ import argparse
 import shutil
 
 def build_project(build_type):
-    cmake_cmd = ['cmake','-G', '"MinGW Makefiles"', '-DCMAKE_BUILD_TYPE=' + build_type, '.']
+    os.mkdir('_build') if not os.path.exists('_build') else None
+
+    os.chdir('_build')
+    print(os.getcwd())
+    cmake_cmd = ['cmake','-G', '"MinGW Makefiles"', '-DCMAKE_BUILD_TYPE=' + build_type, '..']
     os.system(' '.join(cmake_cmd))
     
     if os.name == 'nt':
@@ -15,7 +19,7 @@ def build_project(build_type):
         os.system('make -j')
 
 def clean_project():
-    TARGETS_TO_CLEAN = {'dirs': ['_deploy', 'CMakeFiles'], 'files': ['CMakeCache.txt', 'Makefile', 'cmake_install.cmake']}
+    TARGETS_TO_CLEAN = {'dirs': ['_deploy', '_build'], 'files': []}
     for dir in TARGETS_TO_CLEAN['dirs']:
         shutil.rmtree(dir, ignore_errors=True)
     for file in TARGETS_TO_CLEAN['files']:

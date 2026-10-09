@@ -158,7 +158,7 @@ SET(CMAKE_EXE_LINKER_FLAGS_DEBUG " \
     -Xlinker \
     muldefs \
     -Xlinker \
-    -Map=output.map \
+    -Map=${BUILD_PATH}/output.map \
     -Wl,--print-memory-usage \
     -T${PROJECT_SOURCE_DIR}/ld/MK64FN1M0xxx12_flash.ld -static \
 ")
@@ -186,7 +186,7 @@ SET(CMAKE_EXE_LINKER_FLAGS_RELEASE " \
     -Xlinker \
     muldefs \
     -Xlinker \
-    -Map=output.map \
+    -Map=${BUILD_PATH}/output.map \
     -Wl,--print-memory-usage \
     -T${PROJECT_SOURCE_DIR}/ld/MK64FN1M0xxx12_flash.ld -static \
 ")
