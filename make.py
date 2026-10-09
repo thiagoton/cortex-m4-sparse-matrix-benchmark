@@ -6,7 +6,7 @@ import argparse
 import shutil
 
 def build_project(build_type):
-    cmake_cmd = ['cmake', '-DCMAKE_TOOLCHAIN_FILE=armgcc.cmake','-G', '"MinGW Makefiles"', '-DCMAKE_BUILD_TYPE=' + build_type, '.']
+    cmake_cmd = ['cmake','-G', '"MinGW Makefiles"', '-DCMAKE_BUILD_TYPE=' + build_type, '.']
     os.system(' '.join(cmake_cmd))
     
     if os.name == 'nt':
