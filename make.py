@@ -8,15 +8,11 @@ import shutil
 def build_project(build_type):
     os.mkdir('_build') if not os.path.exists('_build') else None
 
-    os.chdir('_build')
-    print(os.getcwd())
-    cmake_cmd = ['cmake','-G', '"MinGW Makefiles"', '-DCMAKE_BUILD_TYPE=' + build_type, '..']
+    cmake_cmd = ['cmake', '--preset', build_type]
     os.system(' '.join(cmake_cmd))
-    
-    if os.name == 'nt':
-        os.system('mingw32-make -j')
-    else:
-        os.system('make -j')
+
+    cmake_cmd = ['cmake','--build', '--preset', build_type]
+    os.system(' '.join(cmake_cmd))
 
 def clean_project():
     TARGETS_TO_CLEAN = {'dirs': ['_deploy', '_build'], 'files': []}
