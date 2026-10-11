@@ -6,9 +6,15 @@
     "**/__repo__": true
   },
   "C_Cpp.exclusionPolicy": "checkFolders",
-  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "C_Cpp.default.configurationProvider": "",
   "cmake.useCMakePresets": "always",
   "cmake.buildTask": true,
   "cmake.skipConfigureIfCachePresent": true,
-  "cmake.sourceDirectory": "${workspaceFolder}"
+  "cmake.sourceDirectory": "${workspaceFolder}",
+  "C_Cpp.default.cppStandard": "gnu++98",
+  "C_Cpp.default.cStandard": "c99",
+  "C_Cpp.default.intelliSenseMode": "gcc-arm",
+  "C_Cpp.intelliSenseEngine": "default",
+  "C_Cpp.default.compilerPath": "${env:ARM_GCC_PATH}/bin/arm-none-eabi-gcc.exe",
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/_build/debug/compile_commands.json",
 }

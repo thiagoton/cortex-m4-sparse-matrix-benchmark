@@ -1,13 +1,18 @@
 {
-  "version": 4,
-  "configurations": [
-    {
-      "name": "IntelliSense Configuration",
-      "compileCommands": [],
-      "intelliSenseMode": "gcc-arm",
-      "browse": {
-        "limitSymbolsToIncludedHeaders": true
-      }
-    }
-  ]
+    "version": 4,
+    "configurations": [
+        {
+            "name": "IntelliSense Configuration",
+            "intelliSenseMode": "gcc-arm",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "cStandard": "c99",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "compileCommands": [
+                "${workspaceFolder}/_build/debug/compile_commands.json",
+                "${workspaceFolder}/_build/release/compile_commands.json"
+            ]
+        }
+    ]
 }
