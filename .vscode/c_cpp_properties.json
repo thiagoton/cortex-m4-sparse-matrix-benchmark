@@ -5,6 +5,12 @@
             "name": "IntelliSense Configuration",
             "intelliSenseMode": "gcc-arm",
             "browse": {
+                "path": [
+                    "${workspaceFolder}/src/**",
+                    "${env:ARMGCC_DIR}/arm-none-eabi/include",
+                    "${env:ARMGCC_DIR}/lib/gcc/arm-none-eabi/*/include",
+                    "${env:ARMGCC_DIR}/lib/gcc/arm-none-eabi/*/include-fixed"
+                ],
                 "limitSymbolsToIncludedHeaders": true
             },
             "cStandard": "c99",
@@ -12,7 +18,8 @@
             "compileCommands": [
                 "${workspaceFolder}/_build/debug/compile_commands.json",
                 "${workspaceFolder}/_build/release/compile_commands.json"
-            ]
+            ],
+            "compilerPath": "${env:ARMGCC_DIR}/bin/arm-none-eabi-gcc.exe"
         }
     ]
 }

@@ -6,7 +6,7 @@ add_executable(${MCUX_SDK_PROJECT_NAME}
 "${CMAKE_CURRENT_SOURCE_DIR}/board/clock_config.h"
 "${CMAKE_CURRENT_SOURCE_DIR}/board/pin_mux.c"
 "${CMAKE_CURRENT_SOURCE_DIR}/board/pin_mux.h"
-"${CMAKE_CURRENT_SOURCE_DIR}/hello_world.c"
+"${CMAKE_CURRENT_SOURCE_DIR}/main.c"
 )
 
 target_include_directories(${MCUX_SDK_PROJECT_NAME} PRIVATE

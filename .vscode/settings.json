@@ -15,6 +15,6 @@
   "C_Cpp.default.cStandard": "c99",
   "C_Cpp.default.intelliSenseMode": "gcc-arm",
   "C_Cpp.intelliSenseEngine": "default",
-  "C_Cpp.default.compilerPath": "${env:ARM_GCC_PATH}/bin/arm-none-eabi-gcc.exe",
+  "C_Cpp.default.compilerPath": "${env:ARMGCC_DIR}/bin/arm-none-eabi-gcc.exe",
   "C_Cpp.default.compileCommands": "${workspaceFolder}/_build/debug/compile_commands.json",
 }
