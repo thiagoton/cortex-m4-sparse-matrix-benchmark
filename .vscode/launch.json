@@ -6,7 +6,7 @@
       "request": "launch",
       "cwd": "${workspaceFolder}",
       "executable": {
-        "elf": "${workspaceFolder}\\cortex-m4-sparse-matrix-benchmark\\_deploy\\debug\\hello_world.elf"
+        "elf": "${workspaceFolder}\\_deploy\\debug\\hello_world.elf"
       },
       "stopAtSymbol": "main",
       "probeSerialNumber": "",

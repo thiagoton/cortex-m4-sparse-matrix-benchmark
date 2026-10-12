@@ -6,6 +6,8 @@ add_executable(${MCUX_SDK_PROJECT_NAME}
 "${CMAKE_CURRENT_SOURCE_DIR}/board/clock_config.h"
 "${CMAKE_CURRENT_SOURCE_DIR}/board/pin_mux.c"
 "${CMAKE_CURRENT_SOURCE_DIR}/board/pin_mux.h"
+"${CMAKE_CURRENT_SOURCE_DIR}/test_suites/test_matrix_f32.c"
+"${CMAKE_CURRENT_SOURCE_DIR}/test_suites/test_common.c"
 "${CMAKE_CURRENT_SOURCE_DIR}/main.c"
 )
 
@@ -95,5 +97,3 @@ target_link_libraries(${MCUX_SDK_PROJECT_NAME} PRIVATE gcc)
 target_link_libraries(${MCUX_SDK_PROJECT_NAME} PRIVATE nosys)
 
 TARGET_LINK_LIBRARIES(${MCUX_SDK_PROJECT_NAME} PRIVATE -Wl,--end-group)
-
-
