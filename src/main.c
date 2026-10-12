@@ -11,6 +11,7 @@
 #include "pin_mux.h"
 #include "clock_config.h"
 #include "board.h"
+#include "fsl_rnga.h"
 
 /*******************************************************************************
  * Definitions
@@ -35,6 +36,8 @@ int main(void)
     BOARD_InitBootPins();
     BOARD_InitBootClocks();
     BOARD_InitDebugConsole();
+
+    RNGA_Init(RNG);
 
     PRINTF("hello world.\r\n");
 

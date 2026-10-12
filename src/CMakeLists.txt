@@ -57,6 +57,8 @@ include(utilities_misc_utilities_MK64F12)
 
 include(device_MK64F12_system_MK64F12)
 
+include(driver_rnga_MK64F12)
+
 include(ExternalProject)
 
 set(CMSISDSP_BUILD_DIR "${PROJECT_SOURCE_DIR}/_build/cmsis-dsp/${CMAKE_BUILD_TYPE}")
