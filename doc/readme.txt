@@ -42,3 +42,12 @@ The log below shows the output of the hello world demo in the terminal window:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 hello world.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Building CMSIS-DSP
+==================
+CMSIS-DSP is built in its own CMake build directory and reused by the firmware build.
+To build it independently, set ARMGCC_DIR to the ARM GNU Toolchain installation and run:
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+python make.py build_dsp --build-type release
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

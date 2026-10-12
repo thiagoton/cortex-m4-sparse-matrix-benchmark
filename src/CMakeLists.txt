@@ -57,6 +57,30 @@ include(utilities_misc_utilities_MK64F12)
 
 include(device_MK64F12_system_MK64F12)
 
+include(ExternalProject)
+
+set(CMSISDSP_BUILD_DIR "${PROJECT_SOURCE_DIR}/_build/cmsis-dsp/${CMAKE_BUILD_TYPE}")
+set(CMSISDSP_ARCHIVE "${CMSISDSP_BUILD_DIR}/lib/libCMSISDSP.a")
+
+ExternalProject_Add(cmsisdsp_external
+    SOURCE_DIR "${PROJECT_SOURCE_DIR}/cmake/cmsis-dsp"
+    BINARY_DIR "${CMSISDSP_BUILD_DIR}"
+    CMAKE_ARGS
+        "-DCMAKE_TOOLCHAIN_FILE=${PROJECT_SOURCE_DIR}/cmake/armgcc.cmake"
+        "-DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE}"
+    BUILD_ALWAYS TRUE
+    BUILD_BYPRODUCTS "${CMSISDSP_ARCHIVE}"
+    INSTALL_COMMAND ""
+)
+
+add_library(CMSISDSP STATIC IMPORTED GLOBAL)
+set_target_properties(CMSISDSP PROPERTIES
+    IMPORTED_LOCATION "${CMSISDSP_ARCHIVE}"
+    INTERFACE_INCLUDE_DIRECTORIES
+        "${CMAKE_CURRENT_SOURCE_DIR}/CMSIS/DSP/Include;${CMAKE_CURRENT_SOURCE_DIR}/CMSIS"
+)
+add_dependencies(${MCUX_SDK_PROJECT_NAME} cmsisdsp_external)
+target_link_libraries(${MCUX_SDK_PROJECT_NAME} PRIVATE CMSISDSP)
 
 TARGET_LINK_LIBRARIES(${MCUX_SDK_PROJECT_NAME} PRIVATE -Wl,--start-group)
 
