@@ -41,21 +41,28 @@ void SM_CscInit(SM_SMatrixCscF_t *sparse, arm_matrix_instance_f32 *dense, uint16
 
 int SM_Mult_DenseXSparse(arm_matrix_instance_f32 *dense, SM_SMatrixCscF_t *sparse, arm_matrix_instance_f32 *out)
 {
-    for (uint16_t scol_ptr_idx = 0u; scol_ptr_idx < sparse->col_ptrs_sz - 1u; scol_ptr_idx++)
+    float *out_row = out->pData;
+    float *dense_row = dense->pData;
+    for (uint16_t drow_idx = 0u; drow_idx < dense->numRows; drow_idx++)
     {
-        uint16_t sdata_idx_start = sparse->col_ptrs[scol_ptr_idx];
-        uint16_t sdata_idx_end = sparse->col_ptrs[scol_ptr_idx + 1u];
-
-        for (uint16_t drow_idx = 0u; drow_idx < dense->numRows; drow_idx++)
+        uint16_t* sdata_idx_start = sparse->col_ptrs;
+        uint16_t* sdata_idx_end = sparse->col_ptrs + 1u;
+        for (uint16_t scol_ptr_idx = 0u; scol_ptr_idx < sparse->col_ptrs_sz - 1u; scol_ptr_idx++)
         {
             float out_value = 0.f;
-            for (uint16_t sdata_idx = sdata_idx_start; sdata_idx < sdata_idx_end; sdata_idx++)
+            for (uint16_t sdata_idx = *sdata_idx_start; sdata_idx < *sdata_idx_end; sdata_idx++)
             {
                 uint16_t srow_idx = sparse->rows[sdata_idx];
-                out_value += dense->pData[drow_idx * (dense->numCols) + srow_idx] * sparse->data[sdata_idx];
+                out_value += dense_row[srow_idx] * sparse->data[sdata_idx];
             }
-            out->pData[drow_idx * (out->numCols) + scol_ptr_idx] = out_value;
+            out_row[scol_ptr_idx] = out_value;
+
+            sdata_idx_start += 1u;
+            sdata_idx_end += 1;
         }
+
+        dense_row += (dense->numCols);
+        out_row += (out->numCols);
     }
 
     return 0;
