@@ -52,7 +52,7 @@ int main(void)
     for (uint8_t n = 0u;n < NMEMB(test_nz_elems); ++n)
     {
         const uint8_t nz_elems = test_nz_elems[n];
-        int status = run_test_matrix_f32(30, nz_elems, &result_f32);
+        int status = run_test_matrix_f32(1000u, nz_elems, &result_f32);
 
         PRINTF("= SZ %d, NZ %d =\n", TEST_MATRIX_SZ, (int)nz_elems);
         PRINTF("= dense =\n");
