@@ -31,8 +31,12 @@ int run_test_matrix_f32(uint16_t rounds, size_t nz_count, TimingResult_t *result
     arm_mat_init_f32(&C, TEST_MATRIX_SZ, TEST_MATRIX_SZ, C_data);
 
     results->dense_cycle_count_avg = 0.f;
-    results->dense_cycle_count_max = 0.f;
+    results->dense_cycle_count_max = 0u;
     results->dense_cycle_count_min = infinityf();
+
+    results->sparse_cycle_count_avg = 0.f;
+    results->sparse_cycle_count_max = 0u;
+    results->sparse_cycle_count_min = infinityf();
 
     for (uint16_t n = 0u; n < rounds; ++n)
     {

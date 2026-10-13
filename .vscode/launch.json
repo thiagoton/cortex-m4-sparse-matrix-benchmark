@@ -26,6 +26,33 @@
       },
       "showDevDebugOutput": "none",
       "probeType": "SEGGER"
+    },
+    {
+      "type": "mcuxpresso-debug",
+      "name": "Release",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "executable": {
+        "elf": "${workspaceFolder}\\_deploy\\release\\hello_world.elf"
+      },
+      "stopAtSymbol": "main",
+      "probeSerialNumber": "",
+      "isAttach": false,
+      "skipBuildBeforeDebug": false,
+      "gdbInitCommands": [
+        "set remotetimeout 600",
+        "set debug-file-directory",
+        "set non-stop off"
+      ],
+      "gdbServerConfigs": {
+        "linkserver": {},
+        "segger": {},
+        "pemicro": {
+          "device": "NXP_K6x_K64FN1M0M12"
+        }
+      },
+      "showDevDebugOutput": "none",
+      "probeType": "SEGGER"
     }
   ]
 }
