@@ -4,7 +4,7 @@
 #include <stddef.h>
 #include "board.h"
 
-#define TEST_MATRIX_SZ (5)
+#define TEST_MATRIX_SZ (3)
 #define TEST_MATRIX_COUNT (TEST_MATRIX_SZ*TEST_MATRIX_SZ)
 
 typedef struct _timing_result {

@@ -15,6 +15,8 @@
 #include "test_suites/test_common.h"
 #include "test_suites/test_suites.h"
 
+#define NMEMB(a) (sizeof(a)/sizeof(a[0]))
+
 /*******************************************************************************
  * Definitions
  ******************************************************************************/
@@ -34,6 +36,8 @@ int main(void)
 {
     char ch;
 
+    const uint8_t test_nz_elems[] = {1, 3, 5, 9};
+
     /* Init board hardware. */
     BOARD_InitBootPins();
     BOARD_InitBootClocks();
@@ -45,13 +49,21 @@ int main(void)
     PRINTF("hello world.\r\n");
 
     TimingResult_t result_f32;
-    int status = run_test_matrix_f32(10, 4, &result_f32);
+    for (uint8_t n = 0u;n < NMEMB(test_nz_elems); ++n)
+    {
+        const uint8_t nz_elems = test_nz_elems[n];
+        int status = run_test_matrix_f32(30, nz_elems, &result_f32);
 
-    PRINTF("avg = %u\nmax = %u\nmin = %u\n", (uint32_t)(result_f32.dense_cycle_count_avg*1000u), result_f32.dense_cycle_count_max, result_f32.dense_cycle_count_min);
+        PRINTF("= SZ %d, NZ %d =\n", TEST_MATRIX_SZ, (int)nz_elems);
+        PRINTF("= dense =\n");
+        PRINTF("avg = %u\nmax = %u\nmin = %u\n", (uint32_t)(result_f32.dense_cycle_count_avg * 1000u), result_f32.dense_cycle_count_max, result_f32.dense_cycle_count_min);
+        PRINTF("= sparse =\n");
+        PRINTF("avg = %u\nmax = %u\nmin = %u\n", (uint32_t)(result_f32.sparse_cycle_count_avg * 1000u), result_f32.sparse_cycle_count_max, result_f32.sparse_cycle_count_min);
+    }
 
     while (1)
     {
-        ch = GETCHAR();
-        PUTCHAR(ch);
+        // ch = GETCHAR();
+        // PUTCHAR(ch);
     }
 }

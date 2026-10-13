@@ -8,7 +8,7 @@ void TEST_create_random_data_f32(float *data, size_t len)
     {
         int32_t rand;
         RNGA_GetRandomData(RNG, &rand, sizeof(rand));
-        *data = (float)(rand / 1000.f);
+        *data = (float)((rand % 100) / 10.f);
         data += 1;
     }
 }
@@ -33,7 +33,7 @@ void TEST_create_random_sparse_f32(size_t nz_count, float *data, size_t len)
         }
 
         RNGA_GetRandomData(RNG, &value, sizeof(value));
-        *(data + pos) = (float)(value / 1000.f);
+        *(data + pos) = (float)((value % 100) / 10.f);
     }
 }
 
