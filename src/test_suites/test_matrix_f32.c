@@ -74,14 +74,15 @@ int run_test_matrix_f32(uint16_t rounds, size_t nz_count, TimingResult_t *result
         results->sparse_cycle_count_avg += elapsed_cycles;
         results->sparse_cycle_count_max = MAX(results->sparse_cycle_count_max, elapsed_cycles);
         results->sparse_cycle_count_min = MIN(results->sparse_cycle_count_min, elapsed_cycles);
+
+        for (uint16_t k = 0u; k < TEST_MATRIX_COUNT; ++k)
+        {
+            assert(fabsf(C_data[k] - D_data[k]) < 1e-6);
+        }
     }
 
     results->dense_cycle_count_avg = results->dense_cycle_count_avg / rounds;
     results->sparse_cycle_count_avg = results->sparse_cycle_count_avg / rounds;
 
-    for (uint16_t n = 0u; n < TEST_MATRIX_COUNT; ++n)
-    {
-        assert(fabsf(C_data[n] - D_data[n]) < 1e-6);
-    }
     return 0;
 }

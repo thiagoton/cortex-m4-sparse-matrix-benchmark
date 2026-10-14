@@ -18,6 +18,7 @@ SET(CMAKE_ASM_FLAGS_DEBUG " \
 ")
 SET(CMAKE_ASM_FLAGS_RELEASE " \
     ${CMAKE_ASM_FLAGS_RELEASE} \
+    -g \
     -DNDEBUG \
     -D__STARTUP_CLEAR_BSS \
     -mcpu=cortex-m4 \
@@ -63,6 +64,7 @@ SET(CMAKE_C_FLAGS_DEBUG " \
 ")
 SET(CMAKE_C_FLAGS_RELEASE " \
     ${CMAKE_C_FLAGS_RELEASE} \
+    -g \
     -DNDEBUG \
     -DCPU_MK64FN1M0VLL12 \
     -DPRINTF_FLOAT_ENABLE=0 \
@@ -72,7 +74,7 @@ SET(CMAKE_C_FLAGS_RELEASE " \
     -DFRDM_K64F \
     -DFREEDOM \
     -DMCUXPRESSO_SDK \
-    -Os \
+    -O2 \
     -mcpu=cortex-m4 \
     -Wall \
     -mfloat-abi=hard \
@@ -113,10 +115,11 @@ SET(CMAKE_CXX_FLAGS_DEBUG " \
 ")
 SET(CMAKE_CXX_FLAGS_RELEASE " \
     ${CMAKE_CXX_FLAGS_RELEASE} \
+    -g \
     -DNDEBUG \
     -DCPU_MK64FN1M0VLL12 \
     -DMCUXPRESSO_SDK \
-    -Os \
+    -O2 \
     -mcpu=cortex-m4 \
     -Wall \
     -mfloat-abi=hard \
@@ -164,6 +167,7 @@ SET(CMAKE_EXE_LINKER_FLAGS_DEBUG " \
 ")
 SET(CMAKE_EXE_LINKER_FLAGS_RELEASE " \
     ${CMAKE_EXE_LINKER_FLAGS_RELEASE} \
+    -g \
     -mcpu=cortex-m4 \
     -Wall \
     -mfloat-abi=hard \

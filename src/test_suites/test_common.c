@@ -37,6 +37,41 @@ void TEST_create_random_sparse_f32(size_t nz_count, float *data, size_t len)
     }
 }
 
+void TEST_create_random_data_q15(int16_t *data, size_t len)
+{
+    while (len--)
+    {
+        int16_t rand;
+        RNGA_GetRandomData(RNG, &rand, sizeof(rand));
+        *data = rand;
+        data += 1;
+    }
+}
+
+void TEST_create_random_sparse_q15(size_t nz_count, int16_t *data, size_t len)
+{
+    for (size_t i = 0u; i < len; ++i)
+    {
+        *(data + i) = 0.f;
+    }
+
+    while (nz_count--)
+    {
+        uint16_t pos;
+        int16_t value;
+        RNGA_GetRandomData(RNG, &pos, sizeof(pos));
+        pos = pos % len;
+
+        while (*(data + pos) != 0)
+        {
+            pos = (pos + 1u) % len;
+        }
+
+        RNGA_GetRandomData(RNG, &value, sizeof(value));
+        *(data + pos) = value;
+    }
+}
+
 
 void DWT_Init() 
 {

@@ -21,6 +21,10 @@ void TEST_create_random_data_f32(float* data, size_t len);
 
 void TEST_create_random_sparse_f32(size_t nz_count, float* data, size_t len);
 
+void TEST_create_random_data_q15(int16_t* data, size_t len);
+
+void TEST_create_random_sparse_q15(size_t nz_count, int16_t* data, size_t len);
+
 void DWT_Init() ;
 
 void DWT_DeInit();

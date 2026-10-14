@@ -46,15 +46,25 @@ int main(void)
     RNGA_Init(RNG);
     RNGA_Seed(RNG, 1234u);
 
-    TimingResult_t result_f32;
-    for (uint8_t n = 0u;n < NMEMB(test_nz_elems); ++n)
+    TimingResult_t results;
+    for (uint8_t n = 0u; n < NMEMB(test_nz_elems); ++n)
     {
         const uint8_t nz_elems = test_nz_elems[n];
-        int status = run_test_matrix_f32(1000, nz_elems, &result_f32);
+        int status = run_test_matrix_f32(1000, nz_elems, &results);
 
-        PRINTF("SZ: %d, NZ: %d, ", TEST_MATRIX_SZ, (int)nz_elems);
-        PRINTF("davg: %u,dmax: %u,dmin: %u, ", (uint32_t)(result_f32.dense_cycle_count_avg), result_f32.dense_cycle_count_max, result_f32.dense_cycle_count_min);
-        PRINTF("savg: %u, smax: %u, smin: %u\n", (uint32_t)(result_f32.sparse_cycle_count_avg), result_f32.sparse_cycle_count_max, result_f32.sparse_cycle_count_min);
+        PRINTF("f32, SZ: %d, NZ: %d, ", TEST_MATRIX_SZ, (int)nz_elems);
+        PRINTF("davg: %u,dmax: %u,dmin: %u, ", (uint32_t)(results.dense_cycle_count_avg), results.dense_cycle_count_max, results.dense_cycle_count_min);
+        PRINTF("savg: %u, smax: %u, smin: %u\n", (uint32_t)(results.sparse_cycle_count_avg), results.sparse_cycle_count_max, results.sparse_cycle_count_min);
+    }
+
+    for (uint8_t n = 0u; n < NMEMB(test_nz_elems); ++n)
+    {
+        const uint8_t nz_elems = test_nz_elems[n];
+        int status = run_test_matrix_q15(1000, nz_elems, &results);
+
+        PRINTF("q15, SZ: %d, NZ: %d, ", TEST_MATRIX_SZ, (int)nz_elems);
+        PRINTF("davg: %u,dmax: %u,dmin: %u, ", (uint32_t)(results.dense_cycle_count_avg), results.dense_cycle_count_max, results.dense_cycle_count_min);
+        PRINTF("savg: %u, smax: %u, smin: %u\n", (uint32_t)(results.sparse_cycle_count_avg), results.sparse_cycle_count_max, results.sparse_cycle_count_min);
     }
 
     while (1)
