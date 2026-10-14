@@ -1,0 +1,8 @@
+f32, SZ: 3, NZ: 1, davg: 576,dmax: 576,dmin: 576, savg: 355, smax: 356, smin: 291
+f32, SZ: 3, NZ: 3, davg: 576,dmax: 576,dmin: 576, savg: 456, smax: 471, smin: 396
+f32, SZ: 3, NZ: 5, davg: 576,dmax: 576,dmin: 576, savg: 543, smax: 546, smin: 491
+f32, SZ: 3, NZ: 9, davg: 576,dmax: 576,dmin: 576, savg: 701, smax: 706, smin: 626
+q15, SZ: 3, NZ: 1, davg: 726,dmax: 726,dmin: 726, savg: 411, smax: 413, smin: 409
+q15, SZ: 3, NZ: 3, davg: 726,dmax: 726,dmin: 726, savg: 525, smax: 547, smin: 475
+q15, SZ: 3, NZ: 5, davg: 726,dmax: 726,dmin: 726, savg: 612, smax: 619, smin: 577
+q15, SZ: 3, NZ: 9, davg: 726,dmax: 726,dmin: 726, savg: 745, smax: 745, smin: 745
