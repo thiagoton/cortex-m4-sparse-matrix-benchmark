@@ -6,6 +6,8 @@ add_executable(${MCUX_SDK_PROJECT_NAME}
 "${CMAKE_CURRENT_SOURCE_DIR}/board/clock_config.h"
 "${CMAKE_CURRENT_SOURCE_DIR}/board/pin_mux.c"
 "${CMAKE_CURRENT_SOURCE_DIR}/board/pin_mux.h"
+"${CMAKE_CURRENT_SOURCE_DIR}/test_suites/arm_mat_mult_fast_q15-2.c"
+"${CMAKE_CURRENT_SOURCE_DIR}/test_suites/naive_mat_mult.c"
 "${CMAKE_CURRENT_SOURCE_DIR}/test_suites/test_matrix_f32.c"
 "${CMAKE_CURRENT_SOURCE_DIR}/test_suites/test_matrix_q15.c"
 "${CMAKE_CURRENT_SOURCE_DIR}/test_suites/test_common.c"

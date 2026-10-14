@@ -10,7 +10,7 @@ typedef struct __sm_smatrix_csc_f
     uint16_t rows_sz;
     uint16_t *col_ptrs;
     uint16_t col_ptrs_sz;
-} SM_SMatrixCscF_t;
+} sparse_mat_instance_f32_t;
 
 typedef struct __sm_smatrix_csc_q15
 {
@@ -19,14 +19,14 @@ typedef struct __sm_smatrix_csc_q15
     uint16_t rows_sz;
     uint16_t *col_ptrs;
     uint16_t col_ptrs_sz;
-} SM_SMatrixCscQ15_t;
+} sparse_mat_instance_q15_t;
 
-void SM_CscInit(SM_SMatrixCscF_t *smatrix, arm_matrix_instance_f32 *dense, uint16_t *rows, uint16_t *col_ptrs, float *data);
+void sparse_mat_init_f32(sparse_mat_instance_f32_t *smatrix, arm_matrix_instance_f32 *dense, uint16_t *rows, uint16_t *col_ptrs, float *data);
 
-int SM_Mult_DenseXSparse(arm_matrix_instance_f32 *dense, SM_SMatrixCscF_t *smatrix, arm_matrix_instance_f32 *out);
+int sparse_mat_mult_f32(arm_matrix_instance_f32 *dense, sparse_mat_instance_f32_t *smatrix, arm_matrix_instance_f32 *out);
 
-void SM_CscInitQ15(SM_SMatrixCscQ15_t *smatrix, arm_matrix_instance_q15 *dense, uint16_t *rows, uint16_t *col_ptrs, int16_t *data);
+void sparse_mat_init_q15(sparse_mat_instance_q15_t *smatrix, arm_matrix_instance_q15 *dense, uint16_t *rows, uint16_t *col_ptrs, int16_t *data);
 
-int SM_Mult_DenseXSparseQ15(arm_matrix_instance_q15 *dense, SM_SMatrixCscQ15_t *smatrix, arm_matrix_instance_q15 *out);
+int sparse_mat_mult_q15(arm_matrix_instance_q15 *dense, sparse_mat_instance_q15_t *smatrix, arm_matrix_instance_q15 *out);
 
 #endif // !__SPARSE_MATRIX_H__

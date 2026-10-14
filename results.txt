@@ -1,8 +1,10 @@
-f32, SZ: 3, NZ: 1, davg: 576,dmax: 576,dmin: 576, savg: 355, smax: 356, smin: 291
-f32, SZ: 3, NZ: 3, davg: 576,dmax: 576,dmin: 576, savg: 456, smax: 471, smin: 396
-f32, SZ: 3, NZ: 5, davg: 576,dmax: 576,dmin: 576, savg: 543, smax: 546, smin: 491
-f32, SZ: 3, NZ: 9, davg: 576,dmax: 576,dmin: 576, savg: 701, smax: 706, smin: 626
-q15, SZ: 3, NZ: 1, davg: 726,dmax: 726,dmin: 726, savg: 411, smax: 413, smin: 409
-q15, SZ: 3, NZ: 3, davg: 726,dmax: 726,dmin: 726, savg: 525, smax: 547, smin: 475
-q15, SZ: 3, NZ: 5, davg: 726,dmax: 726,dmin: 726, savg: 612, smax: 619, smin: 577
-q15, SZ: 3, NZ: 9, davg: 726,dmax: 726,dmin: 726, savg: 745, smax: 745, smin: 745
+f32, SZ: 3, NZ: 1, navg: 496, nmax: 496, nmin: 496, davg: 536, dmax: 536, dmin: 536, savg: 347, smax: 349, smin: 284
+f32, SZ: 3, NZ: 3, navg: 496, nmax: 496, nmin: 496, davg: 536, dmax: 536, dmin: 536, savg: 449, smax: 464, smin: 389
+f32, SZ: 3, NZ: 5, navg: 496, nmax: 496, nmin: 496, davg: 536, dmax: 536, dmin: 536, savg: 537, smax: 544, smin: 484
+f32, SZ: 3, NZ: 7, navg: 496, nmax: 496, nmin: 496, davg: 536, dmax: 536, dmin: 536, savg: 616, smax: 619, smin: 539
+f32, SZ: 3, NZ: 9, navg: 496, nmax: 496, nmin: 496, davg: 536, dmax: 536, dmin: 536, savg: 690, smax: 694, smin: 619
+q15, SZ: 3, NZ: 1, navg: 635, nmax: 635, nmin: 635, davg: 861, dmax: 861, dmin: 861, savg: 416, smax: 416, smin: 416
+q15, SZ: 3, NZ: 3, navg: 635, nmax: 635, nmin: 635, davg: 861, dmax: 861, dmin: 861, savg: 529, smax: 551, smin: 481
+q15, SZ: 3, NZ: 5, navg: 635, nmax: 635, nmin: 635, davg: 861, dmax: 861, dmin: 861, savg: 613, smax: 621, smin: 551
+q15, SZ: 3, NZ: 7, navg: 635, nmax: 635, nmin: 635, davg: 861, dmax: 861, dmin: 861, savg: 683, smax: 686, smin: 651
+q15, SZ: 3, NZ: 9, navg: 635, nmax: 635, nmin: 635, davg: 861, dmax: 861, dmin: 861, savg: 750, smax: 751, smin: 716

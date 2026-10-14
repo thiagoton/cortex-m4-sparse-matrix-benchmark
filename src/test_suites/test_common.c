@@ -43,7 +43,7 @@ void TEST_create_random_data_q15(int16_t *data, size_t len)
     {
         int16_t rand;
         RNGA_GetRandomData(RNG, &rand, sizeof(rand));
-        *data = rand;
+        *data = rand % 1000;
         data += 1;
     }
 }
@@ -68,7 +68,7 @@ void TEST_create_random_sparse_q15(size_t nz_count, int16_t *data, size_t len)
         }
 
         RNGA_GetRandomData(RNG, &value, sizeof(value));
-        *(data + pos) = value;
+        *(data + pos) = value % 1000;
     }
 }
 

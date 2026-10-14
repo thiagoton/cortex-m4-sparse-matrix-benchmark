@@ -15,12 +15,12 @@
 #include "test_suites/test_common.h"
 #include "test_suites/test_suites.h"
 
-#define NMEMB(a) (sizeof(a)/sizeof(a[0]))
+#define NMEMB(a) (sizeof(a) / sizeof(a[0]))
+#define NUM_ROUNDS (500u)
 
 /*******************************************************************************
  * Definitions
  ******************************************************************************/
-
 
 /*******************************************************************************
  * Prototypes
@@ -34,10 +34,6 @@
  */
 int main(void)
 {
-    char ch;
-
-    const uint8_t test_nz_elems[] = {1, 3, 5, 9};
-
     /* Init board hardware. */
     BOARD_InitBootPins();
     BOARD_InitBootClocks();
@@ -46,30 +42,36 @@ int main(void)
     RNGA_Init(RNG);
     RNGA_Seed(RNG, 1234u);
 
-    TimingResult_t results;
-    for (uint8_t n = 0u; n < NMEMB(test_nz_elems); ++n)
+    uint8_t nz_step = 2u;
+    if (TEST_MATRIX_SZ > 5)
     {
-        const uint8_t nz_elems = test_nz_elems[n];
-        int status = run_test_matrix_f32(1000, nz_elems, &results);
+        nz_step = 4u;
+    }
+
+    TimingResult_t results;
+    for (uint8_t nz_elems = 1u; nz_elems <= TEST_MATRIX_COUNT; nz_elems += nz_step)
+    {
+        int status = run_test_matrix_f32(NUM_ROUNDS, nz_elems, &results);
+        assert(status == 0);
 
         PRINTF("f32, SZ: %d, NZ: %d, ", TEST_MATRIX_SZ, (int)nz_elems);
-        PRINTF("davg: %u,dmax: %u,dmin: %u, ", (uint32_t)(results.dense_cycle_count_avg), results.dense_cycle_count_max, results.dense_cycle_count_min);
+        PRINTF("navg: %u, nmax: %u, nmin: %u, ", (uint32_t)(results.naive_cycle_count_avg), results.naive_cycle_count_max, results.naive_cycle_count_min);
+        PRINTF("davg: %u, dmax: %u, dmin: %u, ", (uint32_t)(results.arm_cycle_count_avg), results.arm_cycle_count_max, results.arm_cycle_count_min);
         PRINTF("savg: %u, smax: %u, smin: %u\n", (uint32_t)(results.sparse_cycle_count_avg), results.sparse_cycle_count_max, results.sparse_cycle_count_min);
     }
 
-    for (uint8_t n = 0u; n < NMEMB(test_nz_elems); ++n)
+    for (uint8_t nz_elems = 1u; nz_elems <= TEST_MATRIX_COUNT; nz_elems += nz_step)
     {
-        const uint8_t nz_elems = test_nz_elems[n];
-        int status = run_test_matrix_q15(1000, nz_elems, &results);
+        int status = run_test_matrix_q15(NUM_ROUNDS, nz_elems, &results);
+        assert(status == 0);
 
         PRINTF("q15, SZ: %d, NZ: %d, ", TEST_MATRIX_SZ, (int)nz_elems);
-        PRINTF("davg: %u,dmax: %u,dmin: %u, ", (uint32_t)(results.dense_cycle_count_avg), results.dense_cycle_count_max, results.dense_cycle_count_min);
+        PRINTF("navg: %u, nmax: %u, nmin: %u, ", (uint32_t)(results.naive_cycle_count_avg), results.naive_cycle_count_max, results.naive_cycle_count_min);
+        PRINTF("davg: %u, dmax: %u, dmin: %u, ", (uint32_t)(results.arm_cycle_count_avg), results.arm_cycle_count_max, results.arm_cycle_count_min);
         PRINTF("savg: %u, smax: %u, smin: %u\n", (uint32_t)(results.sparse_cycle_count_avg), results.sparse_cycle_count_max, results.sparse_cycle_count_min);
     }
 
     while (1)
     {
-        // ch = GETCHAR();
-        // PUTCHAR(ch);
     }
 }
