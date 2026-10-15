@@ -45,7 +45,7 @@ int main(void)
     uint8_t nz_step = 2u;
     if (TEST_MATRIX_SZ > 5)
     {
-        nz_step = 4u;
+        nz_step = (uint8_t)(TEST_MATRIX_COUNT * 0.1);
     }
 
     TimingResult_t results;

@@ -785,8 +785,12 @@ ARM_DSP_ATTRIBUTE arm_status arm_mat_mult_q15(
     BT.numRows = numColsB;
     BT.numCols = numRowsB;
     BT.pData = pSrcBT;
-
+#if (defined ENABLE_TRANSPOSE)
     arm_mat_trans_q15(pSrcB,&BT);
+#else
+    // assume B is already transposed
+    pSrcBT = pSrcB->pData;
+#endif
     /* Reset variables for usage in following multiplication process */
     row = numRowsA;
     i = 0U;

@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.14)
 
 project(CMSISDSPStandalone C)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 get_filename_component(PROJECT_ROOT "${CMAKE_CURRENT_LIST_DIR}/../.." ABSOLUTE)
 set(BUILD_PATH "${CMAKE_BINARY_DIR}")
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")

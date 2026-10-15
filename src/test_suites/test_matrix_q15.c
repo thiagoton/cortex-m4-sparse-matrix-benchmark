@@ -24,11 +24,6 @@ int16_t Bs_data[TEST_MATRIX_COUNT];
 uint16_t Bs_col_ptrs[TEST_MATRIX_SZ + 1];
 uint16_t Bs_rows[TEST_MATRIX_COUNT];
 
-extern arm_status arm_mat_mult_fast_q15_2(const arm_matrix_instance_q15 *pSrcA,
-                                          const arm_matrix_instance_q15 *pSrcB,
-                                          arm_matrix_instance_q15 *pDst,
-                                          q15_t *pState);
-
 extern void naive_mat_mult_q15(arm_matrix_instance_q15 *A, arm_matrix_instance_q15 *B, arm_matrix_instance_q15 *out);
 
 int run_test_matrix_q15(uint16_t rounds, size_t nz_count, TimingResult_t *results)
@@ -76,7 +71,7 @@ int run_test_matrix_q15(uint16_t rounds, size_t nz_count, TimingResult_t *result
          */
         // transpose matrix, because custom CMSIS multiplication is not doing that anymore.
         arm_mat_trans_q15(&B, &Bt);
-        TEST_MEASURE_CYCLES(elapsed_cycles, status = arm_mat_mult_fast_q15_2(&A, &Bt, &D, NULL));
+        TEST_MEASURE_CYCLES(elapsed_cycles, status = arm_mat_mult_q15(&A, &Bt, &D, NULL));
 
         // compare CMSIS x naive results
         for (uint16_t k = 0u; k < TEST_MATRIX_COUNT; ++k)

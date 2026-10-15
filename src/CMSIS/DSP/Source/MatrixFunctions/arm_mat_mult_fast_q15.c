@@ -178,6 +178,7 @@ ARM_DSP_ATTRIBUTE arm_status arm_mat_mult_fast_q15(
 #endif /* #ifdef ARM_MATH_MATRIX_CHECK */
 
   {
+#if (defined ENABLE_TRANSPOSE)
     /* Matrix transpose */
     do
     {
@@ -283,6 +284,10 @@ ARM_DSP_ATTRIBUTE arm_status arm_mat_mult_fast_q15(
       row--;
 
     } while (row > 0U);
+#else
+    // assume B is already transposed
+    pSrcBT = pSrcB->pData;
+#endif // ENABLE_TRANSPOSE
 
     /* Reset variables for usage in following multiplication process */
     row = numRowsA;
