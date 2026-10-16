@@ -42,14 +42,14 @@ int main(void)
     RNGA_Init(RNG);
     RNGA_Seed(RNG, 1234u);
 
-    uint8_t nz_step = 2u;
+    uint16_t nz_step = 2u;
     if (TEST_MATRIX_SZ > 5)
     {
         nz_step = (uint8_t)(TEST_MATRIX_COUNT * 0.1);
     }
 
     TimingResult_t results;
-    for (uint8_t nz_elems = 1u; nz_elems <= TEST_MATRIX_COUNT; nz_elems += nz_step)
+    for (uint16_t nz_elems = 1u; nz_elems <= TEST_MATRIX_COUNT; nz_elems += nz_step)
     {
         int status = run_test_matrix_f32(NUM_ROUNDS, nz_elems, &results);
         assert(status == 0);
@@ -60,7 +60,7 @@ int main(void)
         PRINTF("savg: %u, smax: %u, smin: %u\n", (uint32_t)(results.sparse_cycle_count_avg), results.sparse_cycle_count_max, results.sparse_cycle_count_min);
     }
 
-    for (uint8_t nz_elems = 1u; nz_elems <= TEST_MATRIX_COUNT; nz_elems += nz_step)
+    for (uint16_t nz_elems = 1u; nz_elems <= TEST_MATRIX_COUNT; nz_elems += nz_step)
     {
         int status = run_test_matrix_q15(NUM_ROUNDS, nz_elems, &results);
         assert(status == 0);

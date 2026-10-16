@@ -4,7 +4,7 @@
 #include <stddef.h>
 #include "board.h"
 
-#define TEST_MATRIX_SZ (8)
+#define TEST_MATRIX_SZ (16)
 #define TEST_MATRIX_COUNT (TEST_MATRIX_SZ * TEST_MATRIX_SZ)
 
 #define TEST_MEASURE_CYCLES(_result, _func)  \
