@@ -14,6 +14,16 @@ add_executable(${MCUX_SDK_PROJECT_NAME}
 "${CMAKE_CURRENT_SOURCE_DIR}/main.c"
 )
 
+add_custom_command(TARGET ${MCUX_SDK_PROJECT_NAME} POST_BUILD
+    COMMAND ${CMAKE_COMMAND}
+        "-DOBJDUMP=${CMAKE_OBJDUMP}"
+        "-DINPUT_FILE=$<TARGET_FILE:${MCUX_SDK_PROJECT_NAME}>"
+        "-DOUTPUT_FILE=$<TARGET_FILE:${MCUX_SDK_PROJECT_NAME}>.disasm"
+        -P "${PROJECT_SOURCE_DIR}/cmake/generate_disassembly.cmake"
+    COMMENT "Generating source-intermixed disassembly"
+    VERBATIM
+)
+
 target_include_directories(${MCUX_SDK_PROJECT_NAME} PRIVATE
 ${CMAKE_CURRENT_SOURCE_DIR}/board
 )
