@@ -4,7 +4,7 @@ CMAKE_MINIMUM_REQUIRED (VERSION 3.14)
 
 SET(CMAKE_TOOLCHAIN_FILE ${CMAKE_CURRENT_SOURCE_DIR}/cmake/armgcc.cmake)
 
-project(hello_world)
+project(benchmark)
 
 # THE VERSION NUMBER
 SET (Tutorial_VERSION_MAJOR 1)
@@ -27,7 +27,7 @@ SET(REPO_ROOT ${PROJECT_SOURCE_DIR}/)
 SET(BUILD_PATH ${CMAKE_BINARY_DIR})
 SET(INCLUDE_CMAKE_DIR ${REPO_ROOT}/cmake)
 
-set(MCUX_SDK_PROJECT_NAME hello_world.elf)
+set(MCUX_SDK_PROJECT_NAME benchmark.elf)
 
 include(${INCLUDE_CMAKE_DIR}/flags.cmake)
 

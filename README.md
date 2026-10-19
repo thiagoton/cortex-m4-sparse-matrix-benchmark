@@ -120,13 +120,13 @@ python make.py build_dsp --build-type release
 python make.py build --build-type release
 ```
 
-The ELF is produced at `_deploy/release/hello_world.elf`, together with a source-intermixed
-`hello_world.elf.disasm`. For a debug build use `--build-type debug`.
+The ELF is produced at `_deploy/release/benchmark.elf`, together with a source-intermixed
+`benchmark.elf.disasm`. For a debug build use `--build-type debug`.
 
 ### Flash and capture results
 
 1. Connect the FRDM-K64F over the OpenSDA USB port.
-2. Flash `_deploy/<build-type>/hello_world.elf` with the MCUXpresso VS Code debug configuration
+2. Flash `_deploy/<build-type>/benchmark.elf` with the MCUXpresso VS Code debug configuration
    (Linkserver/SEGGER) or your usual `arm-none-eabi-gdb` flow.
 3. Open a serial terminal at **115200 8N1, no flow control**, let the benchmark run, and save the output
    as `results.txt` in the repo root.
@@ -160,4 +160,5 @@ make.py, CMakePresets.json       build entry points
 - **Static sparsity only:** CSC conversion is not timed; add its cost if `B` changes at runtime.
 - **Small matrices only:** up to `N = 16`; trends may differ for larger `N`.
 - **Random placement only:** structured patterns (banded, block, diagonal) are not covered.
+
 

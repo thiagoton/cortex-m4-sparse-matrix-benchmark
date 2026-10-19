@@ -6,7 +6,7 @@
       "request": "launch",
       "cwd": "${workspaceFolder}",
       "executable": {
-        "elf": "${workspaceFolder}\\_deploy\\debug\\hello_world.elf"
+        "elf": "${workspaceFolder}\\_deploy\\debug\\benchmark.elf"
       },
       "stopAtSymbol": "main",
       "probeSerialNumber": "",
@@ -33,7 +33,7 @@
       "request": "launch",
       "cwd": "${workspaceFolder}",
       "executable": {
-        "elf": "${workspaceFolder}\\_deploy\\release\\hello_world.elf"
+        "elf": "${workspaceFolder}\\_deploy\\release\\benchmark.elf"
       },
       "stopAtSymbol": "main",
       "probeSerialNumber": "",
