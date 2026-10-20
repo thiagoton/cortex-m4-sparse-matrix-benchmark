@@ -48,8 +48,8 @@ The full analysis (break-even fits, cycles/MAC, variability, parity effects, …
   (`arm_mat_mult_f32` unrolls 4 MACs per iteration). For `q15`, CMSIS wins at every measured size.
 - **Power-of-two sizes matter:** CMSIS gains are much larger going from 7 → 8 and 15 → 16 (SIMD pairs and
   unrolling), while the naive kernel follows only the general `N` trend.
-- **Sparse cycles/MAC are much higher than dense** (>100 vs ~10–25 cycles/MAC), but since there are far
-  fewer MACs to perform, the total cost is still lower at low density.
+- **Sparse cycles/MAC are much higher than dense (for low desity)** (>100 vs ~10–25 cycles/MAC), but since there are far
+  fewer MACs to perform, the total cost is still lower (at low density).
 - **Variability:** dense kernels are deterministic (`min = max`); sparse spread comes from random non-zero
   placement. Random layouts do not cover adversarial cases (e.g. all non-zeros in one column), so these are
   **not** WCET bounds.
